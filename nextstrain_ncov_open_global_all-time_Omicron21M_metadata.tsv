@@ -1,0 +1,500 @@
+strain	date	url	S1_mutations	country	host	mutational_fitness	genbank_accession	emerging_lineage	division	region	pango_lineage	recency	originating_lab	epiweek	submitting_lab	current_frequency	clade_membership	author	accession	logistic_growth
+USA/WA-CDC-UW21123088254/2021	2021-12-30		28.00	USA	Homo sapiens	1.87	OM269374		Washington	North America	BA.1	Older	UW Virology Lab	202152	CDC-OAMD		21K (Omicron)	Howard et al FR		
+PER/LSP1297/2022	2022-01-12		27.00	Peru	Homo sapiens	1.90	ON183279		Peru	South America	BA.1.1	Older		202202			21K (Omicron)	Kosek et al A		
+USA/OSPHL04769/2022	2022-01-25		26.00	USA	Homo sapiens	1.86	OM654349		Oregon	North America	BA.1	Older		202204			21K (Omicron)	Razzaque et al B		
+MWI/MLW000855/2021	2021-12-24		27.00	Malawi	Homo sapiens	1.90	ON100004		Malawi	Africa	BA.1.14.2	Older		202151			21K (Omicron)	Feasey et al M		
+USA/V02360/2022	2022-01-04		27.00	USA	Homo sapiens	1.96	ON831790		Arkansas	North America	BA.1.15	Older	University of Arkansas for Medical Sciences	202201	University of Arkansas Medical Sciences/Arkansas Children's Hospital		21K (Omicron)	Kandel et al B		
+USA/TX-CDC-FG-273103/2022	2022-02-07		29.00	USA	Homo sapiens	1.94	OM762479		Texas	North America	BA.1.15.2	Older	Fulgent Genetics	202206	CDC-OAMD		21K (Omicron)	Howard et al FS		
+RUS/Otradnoe/2022	2022-01-25		22.00	Russia	Homo sapiens	1.87	ON032857		Moscow Oblast	Europe	BA.1.15	Older		202204			21K (Omicron)	Faizuloev et al C		
+BRA/CEC-1001-051/2022	2022-01-10		22.00	Brazil	Homo sapiens	1.80	ON241689		Rio de Janeiro	South America	BA.1.15	Older		202202			21K (Omicron)	Souza et al K		
+Argentina/UW21123117761/2021	2021-12-31		27.00	Argentina	Homo sapiens	1.94	OP012885		Argentina	South America	BA.1.15	Older		202152			21K (Omicron)	Roychoudhury et al AG		
+Argentina/UW22010605739/2022	2022-01-06		27.00	Argentina	Homo sapiens	1.92	ON908360		Argentina	South America	BA.1.15	Older		202201			21K (Omicron)	Roychoudhury et al AH		
+USA/TX-CDC-FG-228214/2021	2021-12-28		27.00	USA	Homo sapiens	1.94	OM231904		Texas	North America	BA.1.15	Older	Fulgent Genetics	202152	CDC-OAMD		21K (Omicron)	Howard et al FT		
+MEX/MA-UMASSMED-202149209/2022	2022-03-09		27.00	Mexico	Homo sapiens	1.95	ON525979		Mexico	North America	BA.1.15	Older		202210			21K (Omicron)	Ward et al B		
+Colombia/CO-CAU-UW22010494731/2022	2022-01-04		27.00	Colombia	Homo sapiens	1.94	ON911878		Colombia	South America	BA.1.15	Older		202201			21K (Omicron)	Roychoudhury et al AI		
+USA/LA-CDC-STM-5QVNUX2QZ/2021	2021-12-17		27.00	USA	Homo sapiens	1.94	OM055445		Louisiana	North America	BA.1.15	Older	'Helix'	202150	CDC-OAMD		21K (Omicron)	Howard et al FU		
+USA/WI-CDC-FG-215219/2021	2021-12-22		27.00	USA	Homo sapiens	1.94	OM093191		Wisconsin	North America	BA.1.15	Older	Fulgent Genetics	202151	CDC-OAMD		21K (Omicron)	Howard et al FV		
+USA/LA-EVTL13802/2022	2022-01-15		27.00	USA	Homo sapiens	1.94	ON947141		Louisiana	North America	BA.1.15	Older		202202			21K (Omicron)	Atkins et al B		
+USA/TN-CDC-ASC210575373/2021	2021-12-30		27.00	USA	Homo sapiens	1.94	OM352721		Tennessee	North America	BA.1.15	Older	Aegis Sciences Corporation	202152	CDC-OAMD		21K (Omicron)	Howard et al FW		
+USA/GA-CDC-LC0522655/2022	2022-01-28		27.00	USA	Homo sapiens	1.94	OM695127		Georgia	North America	BA.1.15	Older	Laboratory Corporation of America	202204	CDC-OAMD		21K (Omicron)	Howard et al FX		
+CAN/EPI_ISL_12767799/2022	2022-01-10		27.00	Canada	Homo sapiens	1.94	OP237527		Canada	North America	BA.1.15	One month ago		202202			21K (Omicron)	Lapointe et al A		
+DJI/NAMRU3_B834/2022	2022-01-23		27.00	Djibouti	Homo sapiens	1.94	ON099617		Djibouti	Africa	BA.1.15	Older		202204			21K (Omicron)	Voegtly et al F		
+Chile/CL-AR-UW22011771334/2022	2022-01-17		27.00	Chile	Homo sapiens	1.94	OP013083		Chile	South America	BA.1.15	Older		202203			21K (Omicron)	Roychoudhury et al AJ		
+PAK/276353/2021	2021-12-20		26.00	Pakistan	Homo sapiens	1.86	ON459760		Sindh	Asia	BA.1.1	Older		202151			21K (Omicron)	Kabir et al		
+TUR/ERAGEM-OM-1104/2022	2022-02-11		25.00	Turkey	Homo sapiens	1.83	OM945722		Turkey	Europe	BA.1	Older		202206			21K (Omicron)	Ozdarendeli et al C		
+OX312027	2021-12-26		27.00	Iceland	Homo sapiens	1.83	OX312027		Iceland	Europe	BA.1	3-7 days ago		202152			21K (Omicron)	Melsted et al		
+OV924300	2022-02-16		26.00	Slovakia	Homo sapiens	1.87	OV924300		Slovakia	Europe	BA.1	Older	Regional Public Health Authority with the seat in Trencin, Nemocničná 4, 911 01, Trenčín, Slovakia	202207	Regional Public Health Authority with the seat in Trencin		21K (Omicron)	? O		
+FIN/FIN55-VE6-THL-202126660/2021	2021-12-01		27.00	Finland	Homo sapiens	1.91	OM393712		Finland	Europe	BA.1	Older		202148			21K (Omicron)	Laine et al E		
+MAR/CNRST-HM36/2021	2021-12-22		26.00	Morocco	Homo sapiens	1.87	OM011974		Morocco	Africa	BA.1	Older		202151			21K (Omicron)	Chouati et al		
+NLD/EMC-Omicron-1/2021	2021-11-29		27.00	Netherlands	Homo sapiens	1.91	OM287553		Netherlands	Europe	BA.1.19	Older		202148			21K (Omicron)	GeurtsvanKessel et al B		
+MWI/MLW000920/2022	2022-01-04		27.00	Malawi	Homo sapiens	1.90	ON099760		Malawi	Africa	BA.1.14	Older		202201			21K (Omicron)	Feasey et al N		
+MWI/MLW001212/2022	2022-02-07		25.00	Malawi	Homo sapiens	1.52	ON099765		Malawi	Africa	BA.1.9	Older		202206			21K (Omicron)	Feasey et al O		
+MWI/MLW001213/2022	2022-02-02		27.00	Malawi	Homo sapiens	1.92	ON099764		Malawi	Africa	BA.1	Older		202205			21K (Omicron)	Feasey et al P		
+MAR/FMP414/2021	2021-12-27		27.00	Morocco	Homo sapiens	1.90	OM432158		Morocco	Africa	BA.1	Older		202152			21K (Omicron)	El Mazouri et al		
+AUT/SKV-282/2021	2021-12-01		27.00	Austria	Homo sapiens	1.90	OL721912		Upper Austria	Europe	BA.1.13	Older		202148			21K (Omicron)	Puehringer et al J		
+SouthAfrica/NHLS-UCT-GP-N741/2022	2022-01-20		27.00	South Africa	Homo sapiens	1.90	OM725308		South Africa	Africa	BA.1.13	Older		202203			21K (Omicron)	Tegally et al V		
+Brazil/BR-MG-UW22011017605/2022	2022-01-10		27.00	Brazil	Homo sapiens	1.90	OP012930		Brazil	South America	BA.1	Older		202202			21K (Omicron)	Roychoudhury et al AK		
+Brazil/BR-MG-UW22011029043/2022	2022-01-10		27.00	Brazil	Homo sapiens	1.90	OP012932		Brazil	South America	BA.1	Older		202202			21K (Omicron)	Roychoudhury et al AL		
+Brazil/BR-SP-UW22010692718/2022	2022-01-06		27.00	Brazil	Homo sapiens	1.91	ON908358		Brazil	South America	BA.1	Older		202201			21K (Omicron)	Roychoudhury et al AM		
+Brazil/BR-RJ-UW22011729032/2022	2022-01-17		27.00	Brazil	Homo sapiens	1.90	OP012957		Brazil	South America	BA.1	Older		202203			21K (Omicron)	Roychoudhury et al AN		
+Brazil/BR-RJ-UW22012207908/2022	2022-01-22		27.00	Brazil	Homo sapiens	1.90	OP012958		Brazil	South America	BA.1	Older		202203			21K (Omicron)	Roychoudhury et al AO		
+BRA/2068994/2022	2022-01-04		22.00	Brazil	Homo sapiens	1.76	ON241668		Rio de Janeiro	South America	BA.1	Older		202201			21K (Omicron)	Souza et al L		
+BRA/CIS-084/2022	2022-01-10		24.00	Brazil	Homo sapiens	1.86	ON241703		Rio de Janeiro	South America	BA.1	Older		202202			21K (Omicron)	Souza et al M		
+AUS/QIMR01/2022	2022-01-07		26.00	Australia	Homo sapiens	1.93	ON819429		Australia	Oceania	BA.1.17	Older		202201			21K (Omicron)	Yan et al		
+Scotland/QEUH-2FFBB11/2021	2021-12-26		27.00	United Kingdom	Homo sapiens	1.95	OV657289		Scotland	Europe	BA.1.17.2	Older	Lighthouse Lab in Glasgow	202152	Wellcome Sanger Institute		21K (Omicron)	VanSteenhouse et al A		
+HongKong/HKU-220213-248/2021	2021-12-20		28.00	Hong Kong	Homo sapiens	1.95	ON600277		Hong Kong	Asia	BA.1.17.2	Older		202151			21K (Omicron)	To et al B		
+ITA/ID14_030122/2022	2022-01-03		27.00	Italy	Homo sapiens	1.96	ON507046		Calabria	Europe	BA.1.17.2	One month ago		202201			21K (Omicron)	De Marco et al D		
+SouthAfrica/NHLS-UCT-LA-Z764/2021	2021-11-30		27.00	South Africa	Homo sapiens	1.93	OM773426		South Africa	Africa	BA.1.17	Older		202148			21K (Omicron)	Wilkinson et al C		
+BGD/OIS-686/2021	2021-12-28		27.00	Bangladesh	Homo sapiens	1.93	OM570272		Bangladesh	Asia	BA.1.17	Older		202152			21K (Omicron)	Hamza et al		
+CHN/HZ-21cov3867/2021	2021-12-19		27.00	China	Homo sapiens	1.93	OL988214		China	Asia	BA.1.17	Older		202151			21K (Omicron)	Yu et al		
+Argentina/UW22010840318/2022	2022-01-08		27.00	Argentina	Homo sapiens	1.93	OP012874		Argentina	South America	BA.1.17	Older		202201			21K (Omicron)	Roychoudhury et al AP		
+SouthAfrica/NHLS-UCT-GS-AZ43/2021	2021-12-22		27.00	South Africa	Homo sapiens	1.93	ON116592		Western Cape Province	Africa	BA.1.17	Older	Study: Rapid Diag POC Covid	202151	University of Cape Town and National Health Laboratory Service		21K (Omicron)	Tegally et al W		
+SouthAfrica/NHLS-UCT-LA-Z789/2022	2022-01-04		27.00	South Africa	Homo sapiens	1.92	OM773451		South Africa	Africa	BA.1.17	Older		202201			21K (Omicron)	Wilkinson et al D		
+Argentina/UW22011192552/2022	2022-01-11		27.00	Argentina	Homo sapiens	1.89	OP012929		Argentina	South America	BA.1	Older		202202			21K (Omicron)	Roychoudhury et al AQ		
+Argentina/UW21123052138/2021	2021-12-30		28.00	Argentina	Homo sapiens	1.89	ON908362		Argentina	South America	BA.1	Older		202152			21K (Omicron)	Roychoudhury et al AR		
+Peru/PE-LMA-UW21122144710/2021	2021-12-21		27.00	Peru	Homo sapiens	1.90	ON150709		Peru	South America	BA.1	Older		202151			21K (Omicron)	Roychoudhury et al AS		
+Argentina/UW22010495243/2022	2022-01-04		28.00	Argentina	Homo sapiens	1.95	OP013052		Argentina	South America	BA.1.1	Older		202201			21K (Omicron)	Roychoudhury et al AT		
+Colombia/CO-CAU-UW21122968642/2021	2021-12-29		28.00	Colombia	Homo sapiens	1.94	OP012515		Colombia	South America	BA.1.17.2	Older		202152			21K (Omicron)	Roychoudhury et al AU		
+Colombia/CO-ANT-UW21122496279/2021	2021-12-24		27.00	Colombia	Homo sapiens	1.93	OP012532		Colombia	South America	BA.1.15	Older		202151			21K (Omicron)	Roychoudhury et al AV		
+Argentina/UW22010847253/2022	2022-01-08		27.00	Argentina	Homo sapiens	1.94	ON908363		Argentina	South America	BA.1.15	Older		202201			21K (Omicron)	Roychoudhury et al AW		
+PER/LSP0859/2022	2022-01-11		27.00	Peru	Homo sapiens	1.90	OM942924		Peru	South America	BA.1	Older		202202			21K (Omicron)	Kosek et al B		
+PER/LSP1390/2022	2022-01-13		27.00	Peru	Homo sapiens	1.90	ON183293		Peru	South America	BA.1	Older		202202			21K (Omicron)	Kosek et al C		
+PER/LSP1830/2022	2022-01-15		27.00	Peru	Homo sapiens	1.90	ON183337		Peru	South America	BA.1	Older		202202			21K (Omicron)	Kosek et al D		
+USA/MI-CDC-ASC210587136/2022	2022-01-06		27.00	USA	Homo sapiens	1.90	OM449270		Michigan	North America	BA.1	Older	Aegis Sciences Corporation	202201	CDC-OAMD		21K (Omicron)	Howard et al FY		
+USA/VT-CDCBI-CRSP_BKLY7OV3LDFIC4NI/2022	2022-01-25		27.00	USA	Homo sapiens	1.90	OM532508		Vermont	North America	BA.1	Older	Broad Institute Clinical Research Sequencing Platform	202204	Broad Institute Genomic Center for Infectious Diseases		21K (Omicron)	Lemieux et al U		
+Colombia/CO-ANT-UW21122905960/2021	2021-12-29		27.00	Colombia	Homo sapiens	1.91	OP012517		Colombia	South America	BA.1	Older		202152			21K (Omicron)	Roychoudhury et al AX		
+Colombia/CO-CAU-UW21123163891/2021	2021-12-31		27.00	Colombia	Homo sapiens	1.90	OP012516		Colombia	South America	BA.1	Older		202152			21K (Omicron)	Roychoudhury et al AY		
+MEX/4147/2022	2022-02-18		27.00	Mexico	Homo sapiens	1.90	ON651664		Mexico	North America	BA.1	Older		202207			21K (Omicron)	Gomez Castellano et al		
+USA/SC-CDC-ASC210600852/2022	2022-01-18		27.00	USA	Homo sapiens	1.91	OM519066		South Carolina	North America	BA.1	Older	Aegis Sciences Corporation	202203	CDC-OAMD		21K (Omicron)	Howard et al FZ		
+Peru/PE-LMA-UW21122751659/2021	2021-12-27		27.00	Peru	Homo sapiens	1.90	OP012946		Peru	South America	BA.1	Older		202152			21K (Omicron)	Roychoudhury et al AZ		
+KEN/SS6350/2022	2022-01-10		27.00	Kenya	Homo sapiens	1.89	ON198673		Kenya	Africa	BA.1	Older		202202			21K (Omicron)	Githinji et al BN		
+OW781249	2022-01-26		27.00	Germany	Homo sapiens	1.91	OW781249		Saxony	Europe	BA.1	Older	Bioscientia Labor Wermsdorf, Am Fasanenholz 31; 04779 Wermsdorf	202204	Robert Koch Institute		21K (Omicron)	? A		
+Switzerland/GE-HUG-37112118/2022	2022-02-09		27.00	Switzerland	Homo sapiens	1.91	OV949901		Geneva	Europe	BA.1	Older	Laboratoire de virologie, Geneva, Switzerland	202206	HUG		21K (Omicron)	? AS		
+USA/CA-CDC-FG-208309/2021	2021-12-22		27.00	USA	Homo sapiens	1.90	OM089487		California	North America	BA.1	Older	Fulgent Genetics	202151	CDC-OAMD		21K (Omicron)	Howard et al GA		
+USA/DC-CDC-LC0463313/2022	2022-01-04		27.00	USA	Homo sapiens	1.91	OM360406		Washington DC	North America	BA.1	Older		202201			21K (Omicron)	Howard et al GB		
+EGY/Suez-om58/2021	2021-12-09		28.00	Egypt	Homo sapiens	1.90	OL982609		Suez	Africa	BA.1	Older		202149			21K (Omicron)	Seadawy et al J		
+IND/1/2021	2021-12-23		22.00	India	Homo sapiens	1.78	ON052753		India	Asia	BA.1	Older		202151			21K (Omicron)	Polipalli et al		
+TWN/CGMH-CGU-90/2021	2021-12-18		27.00	Taiwan	Homo sapiens	1.91	ON005319		Taiwan	Asia	BA.1	Older		202150			21K (Omicron)	Tsao et al P		
+USA/IL-CDC-LC0478639/2022	2022-01-11		27.00	USA	Homo sapiens	1.91	OM412093		Illinois	North America	BA.1	Older	Laboratory Corporation of America	202202	CDC-OAMD		21K (Omicron)	Howard et al GC		
+MWI/MLW001179/2021	2021-12-27		27.00	Malawi	Homo sapiens	1.91	ON100005		Malawi	Africa	BA.1	Older		202152			21K (Omicron)	Feasey et al Q		
+PER/LSP1192/2022	2022-01-12		26.00	Peru	Homo sapiens	1.91	ON039341		Peru	South America	BA.1.18	Older		202202			21K (Omicron)	Kosek et al E		
+USA/MD-CDC-ASC210554252/2022	2022-02-09		27.00	USA	Homo sapiens	1.91	OM816433		Maryland	North America	BA.1.18	Older	Aegis Sciences Corporation	202206	CDC-OAMD		21K (Omicron)	Howard et al GD		
+AUS/A12-WW-209C/2021	2021-11-25		27.00	Australia	Homo sapiens	1.92	OL869974		Australia	Oceania	BA.1	Older	CSIRO Australia	202147	CSIRO Land and Water		21K (Omicron)	Ahmed et al A		
+MWI/MLW000904/2022	2022-01-06		27.00	Malawi	Homo sapiens	1.90	ON100032		Malawi	Africa	BA.1	Older		202201			21K (Omicron)	Feasey et al R		
+SouthAfrica/NHLS-UCT-GP-N704/2022	2022-01-14		27.00	South Africa	Homo sapiens	1.91	OM725300		South Africa	Africa	BA.1	Older		202202			21K (Omicron)	Tegally et al X		
+MWI/MLW000907/2022	2022-01-07		27.00	Malawi	Homo sapiens	1.91	ON100033		Malawi	Africa	BA.1	Older		202201			21K (Omicron)	Feasey et al S		
+ITA/Padova_03/2022	2022-02-20		27.00	Italy	Homo sapiens	1.90	ON062195		Italy	Europe	BA.1	Older		202208			21K (Omicron)	Lavezzo et al		
+SouthAfrica/NHLS-UCT-GS-AG28/2021	2021-12-30		28.00	South Africa	Homo sapiens	1.96	OM739995		South Africa	Africa	BA.1.1	Older		202152			21K (Omicron)	Viana et al AM		
+SouthAfrica/NHLS-UCT-GS-AG25/2021	2021-12-29		28.00	South Africa	Homo sapiens	1.97	OM739992		South Africa	Africa	BA.1.1	Older		202152			21K (Omicron)	Viana et al AN		
+FRA/IHUCOVID-071430-Miseq2M/2022	2022-03-07		28.00	France	Homo sapiens	1.96	ON366114		Provence-Alpes-Côte d'Azur	Europe	BA.1.1	Older		202210			21K (Omicron)	Beye et al		
+USA/OKPHL0013657/2022	2022-01-14		28.00	USA	Homo sapiens	1.97	ON558612		Oklahoma	North America	BA.1.1	Older		202202			21K (Omicron)	Wang et al B		
+NOR/Bergen-05/2022	2022-01-03		28.00	Norway	Homo sapiens	1.96	ON222956		Vestland	Europe	BA.1.1.1	Older		202201			21K (Omicron)	Brokstad et al B		
+OW122045	2022-01-19		27.00	Slovakia	Homo sapiens	1.93	OW122045		Slovakia	Europe	BA.1.1.1	Older	Biomedical Centre Martin, Jessenius Faculty of Medicine in Martin, Comenius University	202203	Biomedical Centre Martin, Jessenius Faculty of Medicine in Martin, Comenius University		21K (Omicron)	? O		
+FRA/IHUCOVID-066091_Nova1/2022	2022-02-07		28.00	France	Homo sapiens	1.96	ON267114		France	Europe	BA.1.1.1	Older		202206			21K (Omicron)	Levasseur et al S		
+FRA/IHUCOVID-064316_Nova1RZ/2022	2022-01-19		28.00	France	Homo sapiens	1.96	ON268379		France	Europe	BA.1.1.1	Older		202203			21K (Omicron)	Levasseur et al T		
+KEN/SS4952/2021	2021-12-19		28.00	Kenya	Homo sapiens	1.96	ON198134		Kenya	Africa	BA.1.1	Older		202151			21K (Omicron)	Githinji et al BO		
+KEN/SS6341/2022	2022-02-24		29.00	Kenya	Homo sapiens	1.64	ON198672		Kenya	Africa	BA.1.1	Older		202208			21K (Omicron)	Githinji et al BP		
+KEN/SS7435/2022	2022-01-01		28.00	Kenya	Homo sapiens	1.96	ON602855		Kenya	Africa	BA.1.1	Older		202152			21K (Omicron)	Githinji et al BQ		
+DJI/NAMRU3_A676_2022/2022	2022-01-02		28.00	Djibouti	Homo sapiens	1.96	OM732362		Djibouti	Africa	BA.1.1	Older		202201			21K (Omicron)	Voegtly et al G		
+DJI/NAMRU3_A432/2021	2021-12-31		28.00	Djibouti	Homo sapiens	1.96	OM635071		Djibouti	Africa	BA.1.1	Older		202152			21K (Omicron)	Voegtly et al H		
+IRQ/Duhok-12/2021	2021-12-21		28.00	Iraq	Homo sapiens	1.96	OP279441		Iraqi Kurdistan	Asia	BA.1.1	One month ago		202151			21K (Omicron)	Ahmed et al B		
+DJI/NAMRU3_B884/2022	2022-02-01		28.00	Djibouti	Homo sapiens	1.96	ON099633		Djibouti	Africa	BA.1.1	Older		202205			21K (Omicron)	Voegtly et al I		
+DJI/NAMRU3_C594/2022	2022-02-08		28.00	Djibouti	Homo sapiens	1.96	ON951983		Djibouti	Africa	BA.1.1	Older		202206			21K (Omicron)	Arnold et al AV		
+USA/MO-CDC-ASC210855860/2022	2022-02-13		28.00	USA	Homo sapiens	1.96	OM853362		Missouri	North America	BA.1.1	Older	Aegis Sciences Corporation	202207	CDC-OAMD		21K (Omicron)	Howard et al GE		
+DJI/NAMRU3_A68/2021	2021-12-27		28.00	Djibouti	Homo sapiens	1.96	OM635102		Djibouti	Africa	BA.1.1	Older		202152			21K (Omicron)	Voegtly et al J		
+DJI/NAMRU3_A9/2021	2021-12-27		28.00	Djibouti	Homo sapiens	1.96	OM635113		Djibouti	Africa	BA.1.1	Older		202152			21K (Omicron)	Voegtly et al K		
+DJI/NAMRU3_A395_2022/2022	2022-01-01		28.00	Djibouti	Homo sapiens	1.96	OM732353		Djibouti	Africa	BA.1.1	Older		202152			21K (Omicron)	Voegtly et al L		
+DJI/NAMRU3_B858/2022	2022-02-01		28.00	Djibouti	Homo sapiens	1.96	ON099620		Djibouti	Africa	BA.1.1	Older		202205			21K (Omicron)	Voegtly et al M		
+AUT/SKV-302/2022	2022-01-03		28.00	Austria	Homo sapiens	1.96	OM283608		Upper Austria	Europe	BA.1.1	Older		202201			21K (Omicron)	Puehringer et al K		
+IRQ/NAJAF/2021	2021-09-01		27.00	Iraq	Homo sapiens	1.81	OP218862		Iraq	Asia	BA.1.1	One month ago		202135			21K (Omicron)	alyasiri et al		
+MYS/N4919/2022	2022-02-09		28.00	Malaysia	Homo sapiens	1.97	ON527327		Malaysia	Asia	BA.1.1	Older		202206			21K (Omicron)	Chan et al M		
+Colombia/CO-ANT-UW22010747678/2022	2022-01-07		28.00	Colombia	Homo sapiens	1.96	ON911850		Colombia	South America	BA.1.1	Older		202201			21K (Omicron)	Roychoudhury et al BA		
+PER/LSP0923/2022	2022-01-11		28.00	Peru	Homo sapiens	1.96	OM942933		Peru	South America	BA.1.1	Older		202202			21K (Omicron)	Kosek et al F		
+USA/IL-CDC-LC0472052/2022	2022-01-02		28.00	USA	Homo sapiens	1.96	OM366962		Illinois	North America	BA.1.1	Older	Laboratory Corporation of America	202201	CDC-OAMD		21K (Omicron)	Howard et al GF		
+Colombia/CO-ATL-UW22011252280/2022	2022-01-12		28.00	Colombia	Homo sapiens	1.98	OP012917		Colombia	South America	BA.1.1	Older		202202			21K (Omicron)	Roychoudhury et al BB		
+USA/SC-CDC-QDX35528474/2022	2022-03-30		28.00	USA	Homo sapiens	2.04	ON307514		South Carolina	North America	BA.1.1	Older	Quest Diagnostics Incorporated	202213	CDC-OAMD		21K (Omicron)	Howard et al GG		
+IRL/52-U-1219-21/2022	2022-02-03		28.00	Ireland	Homo sapiens	1.96	ON242402		Ireland	Europe	BA.1.1.15	Older		202205			21K (Omicron)	Macori et al A		
+Switzerland/LU-SRO-500007_1383/2022	2022-01-17		28.00	Switzerland	Homo sapiens	1.96	OV802187		Lucerne	Europe	BA.1.1.11	Older	Spital Langenthal, SRO AG, Labor	202203	SRO		21K (Omicron)	? AT		
+USA/GA-CDC-MMB12236812/2021	2021-12-17		28.00	USA	Homo sapiens	1.97	OM074736		Georgia	North America	BA.1.1	Older	Mako Medical	202150	CDC-OAMD		21K (Omicron)	Howard et al GH		
+USA/GA-CDC-MMB14270421/2022	2022-02-09		28.00	USA	Homo sapiens	1.96	OM923583		Georgia	North America	BA.1.1	Older	Mako Medical	202206	CDC-OAMD		21K (Omicron)	Howard et al GI		
+USA/NM-CDC-QDX35135658/2022	2022-03-21		28.00	USA	Homo sapiens	1.99	ON177396		New Mexico	North America	BA.1.1	Older	Quest Diagnostics Incorporated	202212	CDC-OAMD		21K (Omicron)	Howard et al GJ		
+USA/ME-CDC-LC0461160/2022	2022-01-03		28.00	USA	Homo sapiens	1.81	OM358828		Maine	North America	BA.1.1	Older		202201			21K (Omicron)	Howard et al GK		
+KOR/CNUH-P06-2022/2022	2022-01-03		28.00	South Korea	Homo sapiens	1.96	OP349650		South Korea	Asia	BA.1.1	3-7 days ago		202201			21K (Omicron)	Kim et al H		
+Scotland/QEUH-3206C0B/2022	2022-01-10		28.00	United Kingdom	Homo sapiens	1.97	OV714920		Scotland	Europe	BA.1.1	Older	Lighthouse Lab in Glasgow	202202	Wellcome Sanger Institute		21K (Omicron)	VanSteenhouse et al A		
+USA/GA-CDC-MMB13505777/2022	2022-01-15		28.00	USA	Homo sapiens	1.96	OM645311		Georgia	North America	BA.1.1	Older	Mako Medical	202202	CDC-OAMD		21K (Omicron)	Howard et al GL		
+SYC/SS7503/2021	2021-12-31		28.00	Seychelles	Homo sapiens	1.96	ON603331		Seychelles	Africa	BA.1.1	Older		202152			21K (Omicron)	Githinji et al BR		
+SYC/SS7762/2022	2022-02-01		29.00	Seychelles	Homo sapiens	1.96	ON603457		Seychelles	Africa	BA.1.1	Older		202205			21K (Omicron)	Githinji et al BS		
+USA/AZ-CDC-MMB14154800/2022	2022-02-03		28.00	USA	Homo sapiens	1.97	OM883350		Arizona	North America	BA.1.1	Older	Mako Medical	202205	CDC-OAMD		21K (Omicron)	Howard et al GM		
+BRA/SP-NVBS11296GENOV828543740890/2021	2021-12-14		28.00	Brazil	Homo sapiens	1.93	ON583226		Brazil	South America	BA.1.1	Older		202150			21K (Omicron)	Guarischi et al BY		
+USA/HI-CDC-QDX33164052/2022	2022-01-24		29.00	USA	Homo sapiens	1.96	OM662215		Hawaii	North America	BA.1.1.2	Older	Quest Diagnostics Incorporated	202204	CDC-OAMD		21K (Omicron)	Howard et al GN		
+Japan/SZ-NIG-Y213847/2022	2022-02-25		28.00	Japan	Homo sapiens	1.92	BS003792		Shizuoka	Asia	BA.1.1.2	Older		202208			21K (Omicron)	Nagaoka et al B		
+Japan/SZ-NIG-4-C205/2022	2022-01-08		28.00	Japan	Homo sapiens	1.96	BS002335		Shizuoka	Asia	BA.1.1.2	Older		202201			21K (Omicron)	Tsuchiya et al C		
+Japan/SZ-NIG-216065/2021	2021-12-31		28.00	Japan	Homo sapiens	1.96	BS001397		Shizuoka	Asia	BA.1.1.2	Older		202152			21K (Omicron)	Nagaoka et al C		
+USA/WY-CDC-IBX215143059959/2022	2022-02-15		28.00	USA	Homo sapiens	2.02	OM866385		Wyoming	North America	BA.1.1.18	Older	Infinity Biologix	202207	CDC-OAMD		21K (Omicron)	Howard et al GO		
+Colombia/CO-ATL-UW21123069129/2021	2021-12-30		28.00	Colombia	Homo sapiens	1.97	OP012950		Colombia	South America	BA.1.1.18	Older		202152			21K (Omicron)	Roychoudhury et al BC		
+USA/IL-CDC-QDX33633054/2022	2022-02-06		28.00	USA	Homo sapiens	1.96	OM795140		Illinois	North America	BA.1.1.18	Older	Quest Diagnostics Incorporated	202206	CDC-OAMD		21K (Omicron)	Howard et al GP		
+USA/SD-CDC-4552987-001/2022	2022-02-07		28.00	USA	Homo sapiens	1.97	ON337641		South Dakota	North America	BA.1.1.18	Older		202206			21K (Omicron)	Sheth et al AF		
+USA/CO-CDC-MMB14244250/2022	2022-02-08		28.00	USA	Homo sapiens	1.96	OM967513		Colorado	North America	BA.1.1.18	Older	Mako Medical	202206	CDC-OAMD		21K (Omicron)	Howard et al GQ		
+TWN/CGMH-CGU-130/2022	2022-01-01		28.00	Taiwan	Homo sapiens	1.97	ON005358		Taiwan	Asia	BA.1.1.18	Older		202152			21K (Omicron)	Tsao et al Q		
+USA/NM-UNM-ED02738/2022	2022-04-10		28.00	USA	Homo sapiens	1.98	ON526634		New Mexico	North America	BA.1.1.18	Older	University of New Mexico Hospital	202215	The University of New Mexico Health Sciences Center		21K (Omicron)	Domman et al C		
+USA/ND-CDC-MMB14245373/2022	2022-02-08		28.00	USA	Homo sapiens	1.97	OM906655		North Dakota	North America	BA.1.1.18	Older	Mako Medical	202206	CDC-OAMD		21K (Omicron)	Howard et al GR		
+USA/IL-CDC-LC0492573/2022	2022-01-19		28.00	USA	Homo sapiens	1.97	OM499653		Illinois	North America	BA.1.1.18	Older	Laboratory Corporation of America	202203	CDC-OAMD		21K (Omicron)	Howard et al GS		
+USA/DE-CDC-LC0453165/2021	2021-12-30		28.00	USA	Homo sapiens	1.97	OM227593		Delaware	North America	BA.1.1	Older		202152			21K (Omicron)	Howard et al GT		
+SYC/SS7537/2022	2022-01-05		28.00	Seychelles	Homo sapiens	1.97	ON603345		Seychelles	Africa	BA.1.1	Older		202201			21K (Omicron)	Githinji et al BT		
+HongKong/HKU-344/2021	2021-11-27		28.00	Hong Kong	Homo sapiens	1.97	OM212473		Hong Kong	Asia	BA.1.1	Older		202147			21K (Omicron)	To et al C		
+PAK/JRCGR_KHI_SCV-185/2022	2022-01-06		28.00	Pakistan	Homo sapiens	1.97	OM327526		Pakistan	Asia	BA.1.1	Older		202201			21K (Omicron)	Nisa et al		
+USA/PR-CDC-ASC210730876/2022	2022-02-28		28.00	USA	Homo sapiens	1.96	OM969224		Puerto Rico	North America	BA.1.1	Older	Aegis Sciences Corporation	202209	CDC-OAMD		21K (Omicron)	Howard et al GU		
+IND/EPI_ISL_12223856/2022	2022-01-11		27.00	India	Homo sapiens	1.91	OP295716		India	Asia	BA.1.1.7	One week ago		202202			21K (Omicron)	Shankar et al		
+MNG/10011919/2022	2022-01-14		28.00	Mongolia	Homo sapiens	1.97	OM961378		Mongolia	Asia	BA.1.1	Older		202202			21K (Omicron)	Enkhbat et al H		
+SYC/SS7512/2022	2022-01-03		28.00	Seychelles	Homo sapiens	1.97	ON603335		Seychelles	Africa	BA.1.1	Older		202201			21K (Omicron)	Githinji et al BU		
+USA/DE-CDC-LC0491087/2022	2022-01-17		28.00	USA	Homo sapiens	1.97	OM497630		Delaware	North America	BA.1.1	Older	Laboratory Corporation of America	202203	CDC-OAMD		21K (Omicron)	Howard et al GV		
+USA/KF-460NasalSwab/2022	2022-01-10		26.00	USA	Homo sapiens	1.97	OP355405		Hawaii	North America	BA.1.1	3-7 days ago		202202			21K (Omicron)	Tseng et al C		
+BRA/CEC-1001-059/2022	2022-01-10		24.00	Brazil	Homo sapiens	1.86	ON241690		Rio de Janeiro	South America	BA.1.1	Older		202202			21K (Omicron)	Souza et al N		
+USA/NE-CDC-ASC210823296/2022	2022-02-22		30.00	USA	Homo sapiens	1.96	OM911886		Nebraska	North America	BA.1.1	Older	Aegis Sciences Corporation	202208	CDC-OAMD		21K (Omicron)	Howard et al GW		
+USA/GU-CDC-2-5776896/2022	2022-02-17		28.00	USA	Homo sapiens	1.96	ON333348		Guam	North America	BA.1.1	Older	Guam Public Health Laboratory	202207	CDC DVD Genomics and DIscovery Team		21K (Omicron)	Sheth et al AG		
+Argentina/UW22010342598/2022	2022-01-03		28.00	Argentina	Homo sapiens	1.96	OP013043		Argentina	South America	BA.1.1	Older		202201			21K (Omicron)	Roychoudhury et al BD		
+USA/PR-CDC-ASC210638495/2021	2021-12-22		28.00	USA	Homo sapiens	1.97	OM156326		Puerto Rico	North America	BA.1.1	Older	Aegis Sciences Corporation	202151	CDC-OAMD		21K (Omicron)	Howard et al GX		
+USA/AR-CDC-ASC210550129/2022	2022-02-07		28.00	USA	Homo sapiens	1.96	OM772300		Arkansas	North America	BA.1.1	Older	Aegis Sciences Corporation	202206	CDC-OAMD		21K (Omicron)	Howard et al GY		
+USA/NH-CDC-LC0454314/2021	2021-12-30		28.00	USA	Homo sapiens	1.97	OM227993		New Hampshire	North America	BA.1.1	Older	Laboratory Corporation of America	202152	CDC-OAMD		21K (Omicron)	Howard et al GZ		
+USA/FL-BPHL-4154/2022	2022-01-08		28.00	USA	Homo sapiens	1.97	ON081118		Florida	North America	BA.1.1	Older	Florida Bureau of Public Health Laboratories	202201	FLDOH		21K (Omicron)	Schmedes et al F		
+USA/MN-MDH-22742/2022	2022-02-14		28.00	USA	Homo sapiens	1.95	OM831998		Minnesota	North America	BA.1.1	Older		202207			21K (Omicron)	Garfin et al A		
+USA/VI-CDC-2-5642151/2022	2022-02-15		28.00	USA	Homo sapiens	1.96	OM921387		Virgin Islands	North America	BA.1.1.16	Older	VI-US Virgin Islands Department of Health	202207	CDC DVD Genomics and DIscovery Team		21K (Omicron)	Sheth et al AH		
+USA/AR-CDC-2-5929534/2022	2022-04-11		28.00	USA	Homo sapiens	1.96	ON494216		Arkansas	North America	BA.1.1	Older	"AR Dept. of Health-PHL, Molecular Diagnostics"	202215	CDC DVD Genomics and DIscovery Team		21K (Omicron)	Sheth et al AI		
+COL/LIME_20900/2022	2022-03-28		28.00	Colombia	Homo sapiens	1.96	OP303173		Colombia	South America	BA.1.1	One week ago		202213			21K (Omicron)	Murillo et al D		
+USA/AL-CDC-LC0558735/2022	2022-02-28		29.00	USA	Homo sapiens	1.98	OM989588		Alabama	North America	BA.1.1	Older	Laboratory Corporation of America	202209	CDC-OAMD		21K (Omicron)	Howard et al HA		
+USA/NH-CDC-QDX33311334/2022	2022-01-25		28.00	USA	Homo sapiens	1.96	OM666935		New Hampshire	North America	BA.1.1	Older	Quest Diagnostics Incorporated	202204	CDC-OAMD		21K (Omicron)	Howard et al HB		
+USA/WY-CDC-MMB14747123/2022	2022-03-15		28.00	USA	Homo sapiens	1.96	ON068500		Wyoming	North America	BA.1.1	Older	Mako Medical	202211	CDC-OAMD		21K (Omicron)	Howard et al HC		
+USA/CT-Broad-CRSP_GDOODUZ737PWEKGB/2022	2022-03-08		29.00	USA	Homo sapiens	1.97	ON043545		Connecticut	North America	BA.1.1	Older	Broad Institute Clinical Research Sequencing Platform	202210	Broad Institute Genomic Center for Infectious Diseases		21K (Omicron)	Lemieux et al V		
+USA/FL-BPHL-6162/2022	2022-01-18		28.00	USA	Homo sapiens	1.95	ON676648		Florida	North America	BA.1.1	Older	Florida Bureau of Public Health Laboratories	202203	FLDOH		21K (Omicron)	Schmedes et al G		
+USA/NC-CDC-ASC210851024/2022	2022-04-02		28.00	USA	Homo sapiens	1.94	ON251245		North Carolina	North America	BA.1.1	Older	Aegis Sciences Corporation	202213	CDC-OAMD		21K (Omicron)	Howard et al HD		
+USA/TN-CDC-ASC210845536/2022	2022-03-17		28.00	USA	Homo sapiens	1.96	ON106557		Tennessee	North America	BA.1.1	Older	Aegis Sciences Corporation	202211	CDC-OAMD		21K (Omicron)	Howard et al HE		
+Argentina/UW21123139678/2021	2021-12-31		28.00	Argentina	Homo sapiens	1.98	OP012902		Argentina	South America	BA.1.1	Older		202152			21K (Omicron)	Roychoudhury et al BE		
+Colombia/CO-ATL-UW22011354417/2022	2022-01-13		28.00	Colombia	Homo sapiens	1.94	OP013076		Colombia	South America	BA.1.1	Older		202202			21K (Omicron)	Roychoudhury et al BF		
+Colombia/CO-ANT-UW22011303341/2022	2022-01-13		28.00	Colombia	Homo sapiens	1.96	ON911863		Colombia	South America	BA.1.1	Older		202202			21K (Omicron)	Roychoudhury et al BG		
+COL/LIME_20950/2022	2022-03-31		27.00	Colombia	Homo sapiens	1.93	OP303176		Colombia	South America	BA.1.1	One week ago		202213			21K (Omicron)	Murillo et al E		
+Chile/CL-RM-UW22011148287/2022	2022-01-11		28.00	Chile	Homo sapiens	1.97	OP013036		Chile	South America	BA.1.1	Older		202202			21K (Omicron)	Roychoudhury et al BH		
+USA/WV-CDC-ASC210738241/2022	2022-03-23		28.00	USA	Homo sapiens	1.93	ON145146		West Virginia	North America	BA.1.1	Older	Aegis Sciences Corporation	202212	CDC-OAMD		21K (Omicron)	Howard et al HF		
+USA/NM-CDC-IBX827258626470/2022	2022-01-12		24.00	USA	Homo sapiens	1.48	OM393424		New Mexico	North America	BA.1.1	Older	Infinity Biologix	202202	CDC-OAMD		21K (Omicron)	Howard et al HG		
+USA/AK-PHL17054/2022	2022-01-12		24.00	USA	Homo sapiens	1.47	OM616641		Alaska	North America	BA.1.1	Older		202202			21K (Omicron)	Zidek et al C		
+USA/RI-CDC-2-5803136/2022	2022-03-09		28.00	USA	Homo sapiens	1.96	ON260498		Rhode Island	North America	BA.1.1	Older	RI State Health Laboratories	202210	CDC DVD Genomics and DIscovery Team		21K (Omicron)	Sheth et al AJ		
+USA/NE-CDC-QDX34634321/2022	2022-03-07		28.00	USA	Homo sapiens	1.97	ON035324		Nebraska	North America	BA.1.1	Older	Quest Diagnostics Incorporated	202210	CDC-OAMD		21K (Omicron)	Howard et al HH		
+PRI/PR-UPRRP-5354/2022	2022-01-04		27.00	USA	Homo sapiens	1.92	ON065505		Puerto Rico	North America	BA.1.1	Older		202201			21K (Omicron)	Van Belleghem et al C		
+PRI/PR-UPRRP-5418/2022	2022-01-04		26.00	USA	Homo sapiens	1.88	ON065379		Puerto Rico	North America	BA.1.1	Older		202201			21K (Omicron)	Van Belleghem et al D		
+Colombia/CO-ANT-UW22010704902/2022	2022-01-07		28.00	Colombia	Homo sapiens	1.96	ON911849		Colombia	South America	BA.1.1	Older		202201			21K (Omicron)	Roychoudhury et al BI		
+USA/NV-CDC-FG-261657/2022	2022-01-27		28.00	USA	Homo sapiens	1.96	OM651011		Nevada	North America	BA.1.1	Older	Fulgent Genetics	202204	CDC-OAMD		21K (Omicron)	Howard et al HI		
+Colombia/CO-ANT-UW22010669352/2022	2022-01-06		28.00	Colombia	Homo sapiens	1.96	ON911895		Colombia	South America	BA.1.1	Older		202201			21K (Omicron)	Roychoudhury et al BJ		
+Argentina/UW22010434374/2022	2022-01-04		29.00	Argentina	Homo sapiens	1.96	OP012916		Argentina	South America	BA.1.1	Older		202201			21K (Omicron)	Roychoudhury et al BK		
+Colombia/CO-ATL-UW22011086219/2022	2022-01-10		28.00	Colombia	Homo sapiens	1.96	OP013080		Colombia	South America	BA.1.1	Older		202202			21K (Omicron)	Roychoudhury et al BL		
+Argentina/UW22011099959/2022	2022-01-10		28.00	Argentina	Homo sapiens	1.96	OP012927		Argentina	South America	BA.1.1	Older		202202			21K (Omicron)	Roychoudhury et al BM		
+Denmark/DCGC-364002/2022	2022-02-04		26.00	Denmark	Homo sapiens	1.96	OX098668		Hovedstaden	Europe	BA.1.1	Older	Department of Bacteria, Parasites and Fungi, Statens Serum Institut, Copenhagen, Denmark	202205	statens serum institut and the danish covid19 genome consortium (dcgc)		21K (Omicron)	Danish Covid-19 Genome et al		
+Colombia/CO-ANT-UW22011075545/2022	2022-01-10		28.00	Colombia	Homo sapiens	1.97	ON911846		Colombia	South America	BA.1.1	Older		202202			21K (Omicron)	Roychoudhury et al BN		
+Argentina/UW22011047945/2022	2022-01-10		28.00	Argentina	Homo sapiens	1.97	ON908330		Argentina	South America	BA.1.1	Older		202202			21K (Omicron)	Roychoudhury et al BO		
+USA/WA-CDC-LC0536068/2022	2022-02-08		28.00	USA	Homo sapiens	1.97	OM788265		Washington	North America	BA.1.1	Older	Laboratory Corporation of America	202206	CDC-OAMD		21K (Omicron)	Howard et al HJ		
+USA/FL-CDC-LC0541361/2022	2022-02-16		29.00	USA	Homo sapiens	1.96	OM873883		Florida	North America	BA.1.1	Older	Laboratory Corporation of America	202207	CDC-OAMD		21K (Omicron)	Howard et al HK		
+USA/PR-CDC-ASC210861721/2022	2022-02-18		28.00	USA	Homo sapiens	1.96	OM889406		Puerto Rico	North America	BA.1.1	Older	Aegis Sciences Corporation	202207	CDC-OAMD		21K (Omicron)	Howard et al HL		
+PRI/PR-UPRRP-26577561/2022	2022-02-24		28.00	USA	Homo sapiens	1.97	ON928867		Puerto Rico	North America	BA.1.1	Older		202208			21K (Omicron)	Van Belleghem et al E		
+USA/TG1269971/2022	2022-03-09		28.00	USA	Homo sapiens	1.97	ON519016		Arizona	North America	BA.1.1	Older	Sonora Quest Laboratories - Phoenix	202210	The Translational Genomics Research Institute COVID submission group		21K (Omicron)	Bowers et al E		
+USA/PR-CDC-QDX33752067/2022	2022-02-05		28.00	USA	Homo sapiens	1.98	OM810685		Puerto Rico	North America	BA.1.1	Older	Quest Diagnostics Incorporated	202205	CDC-OAMD		21K (Omicron)	Howard et al HM		
+USA/PR-CDC-ASC210846054/2022	2022-03-18		28.00	USA	Homo sapiens	1.97	ON143831		Puerto Rico	North America	BA.1.1	Older	Aegis Sciences Corporation	202211	CDC-OAMD		21K (Omicron)	Howard et al HN		
+USA/VA-DCLS-12940/2021	2021-12-27		28.00	USA	Homo sapiens	1.97	OM765173		Virginia	North America	BA.1.1	Older		202152			21K (Omicron)	Fink et al B		
+Argentina/UW21122903641/2021	2021-12-29		28.00	Argentina	Homo sapiens	1.96	OP012907		Argentina	South America	BA.1.1	Older		202152			21K (Omicron)	Roychoudhury et al BP		
+Argentina/UW21123155276/2021	2021-12-31		28.00	Argentina	Homo sapiens	1.97	ON908364		Argentina	South America	BA.1.1	Older		202152			21K (Omicron)	Roychoudhury et al BQ		
+COL/LIME_3304/2022	2022-02-12		28.00	Colombia	Homo sapiens	1.97	OP303178		Colombia	South America	BA.1.1	One week ago		202206			21K (Omicron)	Murillo et al F		
+USA/SC-CDC-MMB14424621/2022	2022-02-17		28.00	USA	Homo sapiens	1.96	OM931817		South Carolina	North America	BA.1.1	Older	Mako Medical	202207	CDC-OAMD		21K (Omicron)	Howard et al HO		
+Argentina/UW22011185549/2022	2022-01-11		28.00	Argentina	Homo sapiens	1.96	OP012901		Argentina	South America	BA.1.1	Older		202202			21K (Omicron)	Roychoudhury et al BR		
+USA/NV-CDC-ASC210752008/2022	2022-02-23		28.00	USA	Homo sapiens	1.97	OM946888		Nevada	North America	BA.1.1	Older	Aegis Sciences Corporation	202208	CDC-OAMD		21K (Omicron)	Howard et al HP		
+USA/OH-CDC-QDX34497094/2022	2022-03-04		28.00	USA	Homo sapiens	1.97	ON034509		Ohio	North America	BA.1.1	Older	Quest Diagnostics Incorporated	202209	CDC-OAMD		21K (Omicron)	Howard et al HQ		
+USA/UT-CDC-LC0515818/2022	2022-01-25		28.00	USA	Homo sapiens	1.97	OM625070		Utah	North America	BA.1.1	Older	Laboratory Corporation of America	202204	CDC-OAMD		21K (Omicron)	Howard et al HR		
+USA/NC-CDC-STM-VJQKVT58D/2022	2022-07-01		26.00	USA	Homo sapiens	1.97	ON990551		North Carolina	North America	XM	Older	'Helix'	202226	CDC-OAMD	0.00	21L (Omicron)	Howard et al HS		
+FIN/FIN60-VE6-THL-202205928/2022	2022-01-30		25.00	Finland	Homo sapiens	2.01	OP199046		Finland	Europe	XJ	One month ago		202205			21L (Omicron)	Skon et al A		
+BRA/LACENAL-270227110/2022	2022-05-29		24.00	Brazil	Homo sapiens	1.99	OP060411		Brazil	South America	XAG	Older		202222			21L (Omicron)	Nascimento et al A		
+BRA/LACENAL-270227082/2022	2022-06-13		25.00	Brazil	Homo sapiens	2.04	OP060436		Brazil	South America	XAG	Older		202224			21L (Omicron)	Nascimento et al B		
+OX315253	2022-01-31		25.00	Iceland	Homo sapiens	2.08	OX315253		Iceland	Europe	BA.2	3-7 days ago		202205			21L (Omicron)	Melsted et al		
+ITA/SARS-CoV-2humanITATUS-Siena-0435943/2022	2022-05-19		26.00	Italy	Homo sapiens	2.11	ON974848		Italy	Europe	BA.2	Older		202220			21L (Omicron)	Gori Savellini et al A		
+BRA/LACENAL-270228600/2022	2022-07-01		26.00	Brazil	Homo sapiens	2.11	OP107766		Brazil	South America	BA.2	Older		202226		0.00	21L (Omicron)	Nascimento et al C		
+BRA/LACENAL-270228628/2022	2022-07-02		25.00	Brazil	Homo sapiens	2.06	OP107800		Brazil	South America	BA.2	Older		202226		0.00	21L (Omicron)	Nascimento et al D		
+OW655297	2022-04-09		25.00	Germany	Homo sapiens	2.11	OW655297		North Rhine Westphalia	Europe	BA.2	Older	SYNLAB MVZ Leverkusen, Paracelsusstraße 13; 51375 Leverkusen	202214	Robert Koch Institute		21L (Omicron)	? A		
+Switzerland/BS-UHB-43410117/2022	2022-03-18		25.00	Switzerland	Homo sapiens	2.12	OW312558		Basel-Stadt	Europe	BA.2	Older	Clinical Virology, University Hospital Basel, Basel, Switzerland	202211	University Hospital Basel		21L (Omicron)	? AU		
+USA/WI-CDC-QDX36362234/2022	2022-04-25		26.00	USA	Homo sapiens	2.12	ON522562		Wisconsin	North America	BA.2.13	Older	Quest Diagnostics Incorporated	202217	CDC-OAMD		21L (Omicron)	Howard et al HT		
+USA/MS-MSPHL-1147/2022	2022-05-27		25.00	USA	Homo sapiens	2.12	ON790811		Mississippi	North America	BA.2	Older	MS PHL	202221	Mississippi Public Health Lab		21L (Omicron)	Karolewicz et al C		
+OW964956	2022-01-31		25.00	Denmark	Homo sapiens	2.10	OW964956		Nordjylland	Europe	BA.2	Older		202205			21L (Omicron)	Danish Covid-19 Genome et al		
+Liechtenstein/FL-Risch-2231002285/2022	2022-02-07		26.00	Liechtenstein	Homo sapiens	2.12	OW214887		Liechtenstein	Europe	BA.2	Older	Dr. Risch Ostschweiz AG, Lagerstrasse 30, 9470 Buchs	202206	Dr. Risch		21L (Omicron)	? AV		
+Denmark/DCGC-407692/2022	2022-03-02		25.00	Denmark	Homo sapiens	2.12	OX039316		Syddanmark	Europe	BA.2	Older	Department of Bacteria, Parasites and Fungi, Statens Serum Institut, Copenhagen, Denmark	202209	statens serum institut and the danish covid19 genome consortium (dcgc)		21L (Omicron)	Danish Covid-19 Genome et al		
+Denmark/DCGC-476413/2022	2022-04-03		25.00	Denmark	Homo sapiens	2.12	OX165337		Sjaelland	Europe	BA.2	Older	Department of Bacteria, Parasites and Fungi, Statens Serum Institut, Copenhagen, Denmark	202214	statens serum institut and the danish covid19 genome consortium (dcgc)		21L (Omicron)	Danish Covid-19 Genome et al		
+USA/MI-CDC-LC0639382/2022	2022-05-11		25.00	USA	Homo sapiens	2.12	ON607649		Michigan	North America	BA.2	Older	Laboratory Corporation of America	202219	CDC-OAMD		21L (Omicron)	Howard et al HU		
+USA/PA-CDC-STM-MDPX2KWZB/2022	2022-05-04		25.00	USA	Homo sapiens	2.12	ON528275		Pennsylvania	North America	BA.2	Older	'Helix'	202218	CDC-OAMD		21L (Omicron)	Howard et al HV		
+USA/IL-CDC-ASC210756962/2022	2022-03-11		25.00	USA	Homo sapiens	2.12	ON079902		Illinois	North America	BA.2.9	Older	Aegis Sciences Corporation	202210	CDC-OAMD		21L (Omicron)	Howard et al HW		
+OW805951	2022-03-16		25.00	Germany	Homo sapiens	2.12	OW805951		Hamburg	Europe	BA.2.9	Older	Sonic - Labor Lademannbogen MVZ GmbH, Lademannbogen 61; 22339 Hamburg	202211	Robert Koch Institute		21L (Omicron)	? A		
+USA/CT-Broad-CRSP_NOUT5XH7QYGER5J5/2022	2022-03-18		25.00	USA	Homo sapiens	2.12	ON094658		Connecticut	North America	BA.2.9.2	Older	Broad Institute Clinical Research Sequencing Platform	202211	Broad Institute Genomic Center for Infectious Diseases		21L (Omicron)	Lemieux et al W		
+USA/VT-CDCBI-CRSP_NEZDR2ANXVLRBICJ/2022	2022-05-30		25.00	USA	Homo sapiens	2.13	ON733937		Vermont	North America	BA.2.9	Older	Broad Institute Clinical Research Sequencing Platform	202222	Broad Institute Genomic Center for Infectious Diseases		21L (Omicron)	Lemieux et al X		
+THA/CONI-3102/2022	2022-04-23		25.00	Thailand	Homo sapiens	2.12	ON911069		Bangkok	Asia	BA.2.9.5	Older		202216			21L (Omicron)	Batty et al S		
+THA/CONI-3268/2022	2022-06-20		26.00	Thailand	Homo sapiens	2.17	ON911228		Bangkok	Asia	BA.2.9.5	Older		202225			21L (Omicron)	Batty et al T		
+USA/KS-CDC-ASC210849282/2022	2022-03-30		25.00	USA	Homo sapiens	2.12	ON235858		Kansas	North America	BA.2.9	Older	Aegis Sciences Corporation	202213	CDC-OAMD		21L (Omicron)	Howard et al HX		
+Switzerland/BE-ETHZ-37136648/2022	2022-04-08		25.00	Switzerland	Homo sapiens	2.12	OW584841		Bern	Europe	BA.2.9	Older	Viollier AG; Hagmattstrasse 14, 4123 Allschwil	202214	ETH ZURICH D-BSSE		21L (Omicron)	? AW		
+England/MILK-37B9DE1/2022	2022-02-20		25.00	United Kingdom	Homo sapiens	2.14	OW037752		England	Europe	BA.2	Older	Lighthouse Lab in Milton Keynes	202208	Wellcome Sanger Institute		21L (Omicron)	The Lighthouse Lab in Milton et al B		
+THA/CONI-3185/2022	2022-05-08		25.00	Thailand	Homo sapiens	2.11	ON911150		Bangkok	Asia	BA.2	Older		202219			21L (Omicron)	Batty et al U		
+OW813634	2022-02-16		25.00	Germany	Homo sapiens	2.12	OW813634		Baden-Wuerttemberg	Europe	BA.2	Older	MVZ Labor Dr. Limbach & Kollegen GbR, Im Breitspiel 15; 69126 Heidelberg	202207	Robert Koch Institute		21L (Omicron)	? A		
+OW314529	2022-03-09		24.00	Slovakia	Homo sapiens	2.09	OW314529		Slovakia	Europe	BA.2	Older	Laboratory of Genomics and Bioinformatics, Comenius University Science Park	202210	Laboratory of Genomics and Bioinformatics, Comenius University Science Park		21L (Omicron)	? O		
+KEN/SS8012/2022	2022-04-05		25.00	Kenya	Homo sapiens	2.12	ON603025		Kenya	Africa	BA.2	Older		202214			21L (Omicron)	Githinji et al BV		
+KEN/SS8014/2022	2022-04-05		25.00	Kenya	Homo sapiens	2.12	ON603027		Kenya	Africa	BA.2	Older		202214			21L (Omicron)	Githinji et al BW		
+BGD/Laila_1045/2022	2022-01-31		25.00	Bangladesh	Homo sapiens	2.11	OM988404		Bangladesh	Asia	BA.2.10	Older		202205			21L (Omicron)	Banu et al D		
+BGD/Laila_990/2022	2022-02-03		24.00	Bangladesh	Homo sapiens	2.08	OM760547		Bangladesh	Asia	BA.2.10	Older		202205			21L (Omicron)	Banu et al E		
+MMR/DSMRC-093/2022	2022-02-19		25.00	Myanmar	Homo sapiens	2.12	ON038766		Myanmar	Asia	BA.2.10.1	Older		202207			21L (Omicron)	Oo et al G		
+USA/UT-CDC-2-5930521/2022	2022-04-20		26.00	USA	Homo sapiens	2.07	ON494021		Utah	North America	BA.2.10.1	Older	UT-Unified State Labs: Public Health Utah DOH	202216	CDC DVD Genomics and DIscovery Team		21L (Omicron)	Sheth et al AK		
+DJI/NAMRU3_C827/2022	2022-04-01		25.00	Djibouti	Homo sapiens	2.11	ON951985		Djibouti	Africa	BA.2	Older		202213			21L (Omicron)	Arnold et al AW		
+HongKong/HKU-220804-006/2022	2022-05-16		22.00	Hong Kong	Homo sapiens	2.01	OP143801		Hong Kong	Asia	BA.2.2	Older		202220			21L (Omicron)	To et al D		
+HongKong/HKU-220326-165/2022	2022-03-07		25.00	Hong Kong	Homo sapiens	2.13	ON600053		Hong Kong	Asia	BA.2.2	Older		202210			21L (Omicron)	To et al E		
+HongKong/HKU-220326-112/2022	2022-02-25		25.00	Hong Kong	Homo sapiens	2.13	ON600002		Hong Kong	Asia	BA.2.2	Older		202208			21L (Omicron)	To et al F		
+HongKong/HKU-220213-058/2022	2022-01-22		25.00	Hong Kong	Homo sapiens	2.13	ON600129		Hong Kong	Asia	BA.2.2	Older		202203			21L (Omicron)	To et al G		
+CHN/O-changhai-2-13-S6/2022	2022-04-08		24.00	China	Homo sapiens	2.10	ON965451		China	Asia	BA.2.2.1	Older		202214			21L (Omicron)	Ding et al		
+CHN/NBCDC_20220315_HuYibo/2022	2022-03-15		25.00	China	Homo sapiens	2.13	ON955521		Zhejiang	Asia	BA.2.2.1	Older		202211			21L (Omicron)	Mao et al		
+CHN/O-changhai-2-43-s28/2022	2022-05-12		24.00	China	Homo sapiens	2.09	ON965795		China	Asia	BA.2.2.1	Older		202219			21L (Omicron)	Tang et al		
+OX306149	2022-02-05		24.00	Iceland	Homo sapiens	2.04	OX306149		Iceland	Europe	BA.2	One week ago	The National University Hospital of Iceland	202205	DECODE GENETICS		21L (Omicron)	Melsted et al		
+IRL/69-XY-301459/2022	2022-01-26		24.00	Ireland	Homo sapiens	2.08	ON242405		Ireland	Europe	BA.2	Older		202204			21L (Omicron)	Macori et al B		
+FRA/2204V110959/2022	2022-04-06		24.00	France	Homo sapiens	2.08	OP160186		France	Europe	BA.2	Older		202214			21L (Omicron)	Fourati et al		
+BRA/LACENAL-270227068/2022	2022-05-09		24.00	Brazil	Homo sapiens	2.08	OP060409		Brazil	South America	BA.2	Older		202219			21L (Omicron)	Nascimento et al E		
+USA/PR-CDC-LC0657093/2022	2022-05-20		25.00	USA	Homo sapiens	2.10	ON659394		Puerto Rico	North America	BA.2	Older	Laboratory Corporation of America	202220	CDC-OAMD		21L (Omicron)	Howard et al HY		
+BRA/LACENAL-270226524/2022	2022-05-19		25.00	Brazil	Homo sapiens	2.07	OP060435		Brazil	South America	BA.2	Older		202220			21L (Omicron)	Nascimento et al F		
+NLD/EMC-BA2-1/2022	2022-01-11		25.00	Netherlands	Homo sapiens	2.12	ON545852		Netherlands	Europe	BA.2.9	Older		202202			21L (Omicron)	Mykytyn et al C		
+BRA/LACENAL-270226522/2022	2022-05-12		24.00	Brazil	Homo sapiens	2.10	OP060408		Brazil	South America	BA.2.9	Older		202219			21L (Omicron)	Nascimento et al G		
+BRA/LACENAL-270226547/2022	2022-06-20		24.00	Brazil	Homo sapiens	2.10	OP107775		Brazil	South America	BA.2.9	Older		202225			21L (Omicron)	Nascimento et al H		
+BRA/LACENAL-270226523/2022	2022-05-12		24.00	Brazil	Homo sapiens	2.08	OP060434		Brazil	South America	BA.2	Older		202219			21L (Omicron)	Nascimento et al I		
+BRA/LACENAL-270226790/2022	2022-05-30		23.00	Brazil	Homo sapiens	2.08	OP060370		Brazil	South America	BA.2	Older		202222			21L (Omicron)	Nascimento et al J		
+BRA/LACENAL-270226525/2022	2022-05-31		24.00	Brazil	Homo sapiens	2.08	OP060412		Brazil	South America	BA.2	Older		202222			21L (Omicron)	Nascimento et al K		
+BRA/LACENAL-270226536/2022	2022-06-12		24.00	Brazil	Homo sapiens	2.08	OP060428		Brazil	South America	BA.2	Older		202224			21L (Omicron)	Nascimento et al L		
+USA/MP-CDC-2-5546522/2022	2022-01-11		25.00	USA	Homo sapiens	2.03	OM738017		Northern Mariana Islands	North America	BA.2.3.17	Older	Commonwealth Healthcare Center	202202	CDC DVD Genomics and DIscovery Team		21L (Omicron)	Sheth et al AL		
+USA/WA-CDC-LC0514799/2022	2022-01-26		25.00	USA	Homo sapiens	2.11	OM626067		Washington	North America	BA.2.3	Older	Laboratory Corporation of America	202204	CDC-OAMD		21L (Omicron)	Howard et al HZ		
+MYS/H65_35636/2022	2022-05-09		25.00	Malaysia	Homo sapiens	2.12	ON651672		Malaysia	Asia	BA.2.3	Older		202219			21L (Omicron)	Chan et al N		
+LAO/LOMWRU-0197/2022	2022-04-10		25.00	Laos	Homo sapiens	2.13	OP159538		Vientiane	Asia	BA.2.3.12	Older		202215			21L (Omicron)	Souksavanh et al B		
+Japan/SZ-NIG-Y220044/2022	2022-04-05		26.00	Japan	Homo sapiens	2.12	BS004545		Shizuoka	Asia	BA.2.3.13	Older		202214			21L (Omicron)	Nagaoka et al D		
+USA/CA-CDC-ASC210733918/2022	2022-03-10		25.00	USA	Homo sapiens	2.13	ON047412		California	North America	BA.2.3	Older	Aegis Sciences Corporation	202210	CDC-OAMD		21L (Omicron)	Howard et al IA		
+VNM/OUCRU-NHTD1056/2022	2022-05-13		24.00	Vietnam	Homo sapiens	2.09	ON779969		Vietnam	Asia	BA.2.3.2	Older		202219			21L (Omicron)	Kesteman et al J		
+USA/AK-CDC-LC0563636/2022	2022-03-09		25.00	USA	Homo sapiens	2.11	ON048715		Alaska	North America	BA.2.3	Older	Laboratory Corporation of America	202210	CDC-OAMD		21L (Omicron)	Howard et al IB		
+USA/OR-CDC-2-6050871/2022	2022-05-05		26.00	USA	Homo sapiens	2.15	ON926051		Oregon	North America	BA.2.3	Older	OR State PHL-Virology/Immunology Section	202218	CDC DVD Genomics and DIscovery Team		21L (Omicron)	Sheth et al AM		
+VNM/OUCRU-NHTD871/2022	2022-04-03		25.00	Vietnam	Homo sapiens	2.11	ON779789		Vietnam	Asia	BA.2.3	Older		202214			21L (Omicron)	Kesteman et al K		
+TWN/CGMH-CGU-158/2022	2022-03-27		26.00	Taiwan	Homo sapiens	2.12	OP159860		Taiwan	Asia	BA.2.3.7	Older		202213			21L (Omicron)	Tsao et al R		
+TWN/CGMH-CGU-156/2022	2022-06-04		26.00	Taiwan	Homo sapiens	2.11	OP159857		Taiwan	Asia	BA.2.3.7	Older		202222			21L (Omicron)	Tsao et al S		
+TWN/CGMH-CGU-159/2022	2022-04-13		26.00	Taiwan	Homo sapiens	2.11	OP159861		Taiwan	Asia	BA.2.3.7	Older		202215			21L (Omicron)	Tsao et al T		
+TWN/CGMH-CGU-163/2022	2022-05-22		26.00	Taiwan	Homo sapiens	2.12	OP159865		Taiwan	Asia	BA.2.3.7	Older		202221			21L (Omicron)	Tsao et al U		
+LAO/LOMWRU-0095/2022	2022-03-28		25.00	Laos	Homo sapiens	2.11	OP132749		Xieng Khouang	Asia	BA.2.3.2	Older		202213			21L (Omicron)	Panapruksachat et al B		
+VNM/OUCRU-NHTD3108/2022	2022-06-18		26.00	Vietnam	Homo sapiens	2.11	OP326043		Vietnam	Asia	BA.2.3.2	One week ago		202224			21L (Omicron)	Kesteman et al L		
+VNM/OUCRU-NHTD684/2022	2022-03-04		25.00	Vietnam	Homo sapiens	2.11	ON764631		Vietnam	Asia	BA.2.3.2	Older		202209			21L (Omicron)	Kesteman et al M		
+VNM/OUCRU-NHTD3134/2022	2022-07-10		27.00	Vietnam	Homo sapiens	2.12	OP326069		Vietnam	Asia	BA.2.3.2	One week ago		202228		0.00	21L (Omicron)	Kesteman et al N		
+DJI/NAMRU3_E521/2022	2022-04-29		25.00	Djibouti	Homo sapiens	2.08	ON952002		Djibouti	Africa	BA.2.3	Older		202217			21L (Omicron)	Arnold et al AX		
+DJI/NAMRU3_E467/2022	2022-04-29		25.00	Djibouti	Homo sapiens	2.08	ON951999		Djibouti	Africa	BA.2.3	Older		202217			21L (Omicron)	Arnold et al AY		
+MYS/H20_22485/2022	2022-03-12		25.00	Malaysia	Homo sapiens	2.11	ON527381		Malaysia	Asia	BA.2.3	Older		202210			21L (Omicron)	Chan et al O		
+USA/MA-Broad-CRSP_6TNB7FQIPX33HIZP/2022	2022-04-16		25.00	USA	Homo sapiens	2.12	ON404010		Massachusetts	North America	BA.2.3.10	Older	Broad Institute Clinical Research Sequencing Platform	202215	Broad Institute Genomic Center for Infectious Diseases		21L (Omicron)	Lemieux et al Y		
+USA/KS-CDC-LC0568448/2022	2022-03-24		25.00	USA	Homo sapiens	2.11	ON151665		Kansas	North America	BA.2.3	Older	Laboratory Corporation of America	202212	CDC-OAMD		21L (Omicron)	Howard et al IC		
+USA/RI-CDC-ASC210738691/2022	2022-03-24		25.00	USA	Homo sapiens	2.11	ON141472		Rhode Island	North America	BA.2.3	Older	Aegis Sciences Corporation	202212	CDC-OAMD		21L (Omicron)	Howard et al ID		
+USA/WA-CDC-UW22050181695/2022	2022-05-01		24.00	USA	Homo sapiens	2.08	ON689233		Washington	North America	BA.2.3	Older	UW Virology Lab	202218	CDC-OAMD		21L (Omicron)	Howard et al IE		
+Japan/PG-247741/2022	2022-05-08		26.00	Japan	Homo sapiens	2.11	BS004507		Shizuoka	Asia	BA.2.3.1	Older		202219			21L (Omicron)	Hikida et al A		
+USA/MT-CDC-QDX37390519/2022	2022-05-23		25.00	USA	Homo sapiens	2.11	ON739657		Montana	North America	BA.2.3	Older	Quest Diagnostics Incorporated	202221	CDC-OAMD		21L (Omicron)	Howard et al IF		
+SouthAfrica/NHLS-UCT-GP-O042/2022	2022-02-24		25.00	South Africa	Homo sapiens	2.10	ON078425		Western Cape Province	Africa	BA.2	Older	Kylemore Clinic wc KYL	202208	University of Cape Town and National Health Laboratory Service		21L (Omicron)	Viana et al AO		
+SouthAfrica/NHLS-UCT-GS-BH40/2022	2022-03-14		25.00	South Africa	Homo sapiens	2.08	ON322602		South Africa	Africa	BA.2	Older	Groote Schuur Hospital wc GSH	202211	University of Cape Town and National Health Laboratory Service		21L (Omicron)	Viana et al AP		
+SouthAfrica/NHLS-UCT-GS-BH46/2022	2022-03-17		26.00	South Africa	Homo sapiens	2.10	ON322607		South Africa	Africa	BA.2	Older	Groote Schuur Hospital wc GSH	202211	University of Cape Town and National Health Laboratory Service		21L (Omicron)	Viana et al AQ		
+MWI/MLW001207/2022	2022-02-10		25.00	Malawi	Homo sapiens	2.08	ON099766		Malawi	Africa	BA.2	Older		202206			21L (Omicron)	Feasey et al T		
+USA/NM-CDC-ASC210850548/2022	2022-04-03		26.00	USA	Homo sapiens	2.07	ON251855		New Mexico	North America	BA.2	Older	Aegis Sciences Corporation	202214	CDC-OAMD		21L (Omicron)	Howard et al IG		
+ITA/SARS-CoV-2humanITATUS-Siena-0436626/2022	2022-06-06		25.00	Italy	Homo sapiens	2.13	ON974845		Italy	Europe	BA.2	Older		202223			21L (Omicron)	Gori Savellini et al B		
+SouthAfrica/NHLS-UCT-GS-BH72/2022	2022-03-24		26.00	South Africa	Homo sapiens	2.08	ON324350		South Africa	Africa	BA.2	Older	Heideveld Emergency Centre	202212	University of Cape Town and National Health Laboratory Service		21L (Omicron)	Viana et al AR		
+SouthAfrica/NHLS-UCT-GS-BD34/2022	2022-02-22		25.00	South Africa	Homo sapiens	2.08	ON078454		Western Cape Province	Africa	BA.2	Older	2 Military Hospital wc MAA	202208	University of Cape Town and National Health Laboratory Service		21L (Omicron)	Viana et al AS		
+SouthAfrica/NHLS-UCT-LA-Z982/2022	2022-04-20		28.00	South Africa	Homo sapiens	2.09	ON647672	BA.4	Western Cape Province	Africa	BA.4	Older	Lancet	202216	University of Cape Town and National Health Laboratory Service		22A (Omicron)	Viana et al AT		
+ITA/SARS-CoV-2humanITATUS-Siena-0436765/2022	2022-07-06		27.00	Italy	Homo sapiens	2.01	ON974847	BA.4	Italy	Europe	BA.4	Older		202227		0.00	22A (Omicron)	Gori Savellini et al C		
+ZAF/NHLS-UCT-GP-O913/2022	2022-06-08		29.00	South Africa	Homo sapiens	2.09	OP053565	BA.4	Northern Cape	Africa	BA.4.6	Older	NHLS Health & Safety (CO - WC)	202223	University of Cape Town and National Health Laboratory Service		22A (Omicron)	Viana et al AU		
+ZAF/NHLS-UCT-GS-BK73/2022	2022-06-17		28.00	South Africa	Homo sapiens	2.10	OP053666	BA.4	Western Cape Province	Africa	BA.4.4	Older	Red Cross Children's Hospital wc RXH	202224	University of Cape Town and National Health Laboratory Service		22A (Omicron)	Viana et al AV		
+SouthAfrica/NHLS-UCT-GP-O611/2022	2022-04-13		29.00	South Africa	Homo sapiens	2.14	ON647510	BA.4	Western Cape Province	Africa	BA.4.7	Older	New Somerset Hospital wc NSH	202215	University of Cape Town and National Health Laboratory Service		22A (Omicron)	Viana et al AW		
+ZAF/NHLS-UCT-GS-BL01/2022	2022-06-20		29.00	South Africa	Homo sapiens	2.13	OP279827	BA.4	Western Cape Province	Africa	BA.4.7	One month ago	Forensic Medicine - UCT	202225	University of Cape Town and National Health Laboratory Service		22A (Omicron)	Tegally et al Y		
+USA/LA-CDC-QDX38008330/2022	2022-06-11		27.00	USA	Homo sapiens	2.09	ON913911	BA.4	Louisiana	North America	BA.4.1	Older	Quest Diagnostics Incorporated	202223	CDC-OAMD		22A (Omicron)	Howard et al IH		
+SouthAfrica/NHLS-UCT-GP-O807/2022	2022-04-25		27.00	South Africa	Homo sapiens	2.09	ON647557	BA.4	Western Cape Province	Africa	BA.4.1	Older	Suurbraak Clinic wc SBP	202217	University of Cape Town and National Health Laboratory Service		22A (Omicron)	Viana et al AX		
+SouthAfrica/NHLS-UCT-GS-BJ51/2022	2022-05-04		27.00	South Africa	Homo sapiens	2.09	ON647653	BA.4	Western Cape Province	Africa	BA.4.1	Older	Clinic-in-Asla	202218	University of Cape Town and National Health Laboratory Service		22A (Omicron)	Viana et al AY		
+USA/IL-CDC-QDX38635388/2022	2022-07-02		27.00	USA	Homo sapiens	2.09	OP041666	BA.4	Illinois	North America	BA.4.1	Older	Quest Diagnostics Incorporated	202226	CDC-OAMD	0.00	22A (Omicron)	Howard et al II		
+USA/KS-CDC-2-6168120/2022	2022-06-20		27.00	USA	Homo sapiens	2.09	ON998402	BA.4	Kansas	North America	BA.4.1	Older	KS Health and Environmental Laboratories	202225	CDC DVD Genomics and DIscovery Team		22A (Omicron)	Sheth et al AN		
+USA/DC-CDC-LC0746949/2022	2022-06-28		27.00	USA	Homo sapiens	2.09	ON977429	BA.4	Washington DC	North America	BA.4.1	Older		202226		0.00	22A (Omicron)	Howard et al IJ		
+USA/PR-CDC-LC0814482/2022	2022-08-02		27.00	USA	Homo sapiens	2.09	OP225180	BA.4	Puerto Rico	North America	BA.4.1	One month ago	Laboratory Corporation of America	202231	CDC-OAMD	0.01	22A (Omicron)	Howard et al IK		
+KEN/SS9891/2022	2022-06-29		27.00	Kenya	Homo sapiens	2.09	OP037306	BA.4	Kenya	Africa	BA.4.1	Older		202226		0.00	22A (Omicron)	Githinji et al BX		
+ZAF/NHLS-UCT-GP-O866/2022	2022-05-31		27.00	South Africa	Homo sapiens	2.09	OP053475	BA.4	Western Cape Province	Africa	BA.4.1	Older	Worcester Hospital wc WOC	202222	University of Cape Town and National Health Laboratory Service		22A (Omicron)	Viana et al AZ		
+OX298967	2022-08-16		27.00	Slovakia	Homo sapiens	2.07	OX298967	BA.4	Slovakia	Europe	BA.4.1	One week ago	Regional Public Health Authority with the seat in Banská Bystrica, Slovakia	202233	Regional Public Health Authority with the seat in Banská Bystrica, Slovakia	0.06	22A (Omicron)	? O		
+BRA/LACENAL-270228606/2022	2022-07-01		26.00	Brazil	Homo sapiens	2.05	OP107771	BA.4	Brazil	South America	BA.4.1	Older		202226		0.00	22A (Omicron)	Nascimento et al M		
+USA/HI-CDC-QDX39658202/2022	2022-07-30		27.00	USA	Homo sapiens	2.09	OP257591	BA.4	Hawaii	North America	BA.4.1	One month ago	Quest Diagnostics Incorporated	202230	CDC-OAMD	0.01	22A (Omicron)	Howard et al IL		
+USA/DC-CDC-LC0754549/2022	2022-06-30		27.00	USA	Homo sapiens	2.09	ON978694	BA.4	Washington DC	North America	BA.4.1	Older		202226		0.00	22A (Omicron)	Howard et al IM		
+THA/CONI-3513/2022	2022-07-22		27.00	Thailand	Homo sapiens	2.09	OP198987	BA.4	Bangkok	Asia	BA.4.1	One month ago		202229		0.00	22A (Omicron)	Huang et al A		
+VNM/HCMC_07137/2022	2022-01-15		25.00	Vietnam	Homo sapiens	2.12	OP317353		Vietnam	Asia	BA.2	One week ago		202202			21L (Omicron)	Nguyen et al H		
+USA/SD-CDC-2-5877284/2022	2022-03-30		25.00	USA	Homo sapiens	2.11	ON384252		South Dakota	North America	BA.2	Older	SD Public Health Laboratory	202213	CDC DVD Genomics and DIscovery Team		21L (Omicron)	Sheth et al AO		
+USA/NY-CDC-QDX35483272/2022	2022-04-02		25.00	USA	Homo sapiens	2.12	ON308042		New York	North America	BA.2	Older	Quest Diagnostics Incorporated	202213	CDC-OAMD		21L (Omicron)	Howard et al IN		
+Scotland/QEUH-3DD7A4A/2022	2022-04-27		25.00	United Kingdom	Homo sapiens	2.12	OW824157		Scotland	Europe	BA.2	Older	Lighthouse Lab in Glasgow	202217	Wellcome Sanger Institute		21L (Omicron)	VanSteenhouse et al A		
+USA/PR-CDC-ASC210721593/2022	2022-03-30		26.00	USA	Homo sapiens	2.14	ON235989		Puerto Rico	North America	BA.2.73	Older	Aegis Sciences Corporation	202213	CDC-OAMD		21L (Omicron)	Howard et al IO		
+PRI/PR-UPRRP-5774/2022	2022-03-30		25.00	USA	Homo sapiens	2.11	ON928709		Puerto Rico	North America	BA.2.73	Older		202213			21L (Omicron)	Van Belleghem et al F		
+USA/KS-CDC-ASC210845991/2022	2022-03-18		25.00	USA	Homo sapiens	2.12	ON080500		Kansas	North America	BA.2	Older	Aegis Sciences Corporation	202211	CDC-OAMD		21L (Omicron)	Howard et al IP		
+USA/NE-CDC-QDX37706552/2022	2022-06-03		25.00	USA	Homo sapiens	2.12	ON829480		Nebraska	North America	BA.2	Older	Quest Diagnostics Incorporated	202222	CDC-OAMD		21L (Omicron)	Howard et al IQ		
+USA/MN-MDH-24102/2022	2022-04-04		25.00	USA	Homo sapiens	2.12	ON455562		Minnesota	North America	BA.2	Older		202214			21L (Omicron)	Garfin et al B		
+USA/SD-CDC-2-6132669/2022	2022-06-07		25.00	USA	Homo sapiens	2.13	ON928181		South Dakota	North America	BA.2	Older	SD Public Health Laboratory	202223	CDC DVD Genomics and DIscovery Team		21L (Omicron)	Sheth et al AP		
+USA/IL-CDC-LC0574394/2022	2022-04-08		25.00	USA	Homo sapiens	2.11	ON296548		Illinois	North America	BA.2.12	Older	Laboratory Corporation of America	202214	CDC-OAMD		21L (Omicron)	Howard et al IR		
+USA/ND-CDC-2-5926207/2022	2022-04-23		25.00	USA	Homo sapiens	2.11	ON494485		North Dakota	North America	BA.2.12	Older	ND Dept. of Health Laboratory Services-Microbiology	202216	CDC DVD Genomics and DIscovery Team		21L (Omicron)	Sheth et al AQ		
+USA/GA-CDC-QDX36260864/2022	2022-04-22		26.00	USA	Homo sapiens	2.13	ON452665		Georgia	North America	BA.2.12.1	Older	Quest Diagnostics Incorporated	202216	CDC-OAMD		22C (Omicron)	Howard et al IS		
+USA/OH-CDC-QDX37596802/2022	2022-05-31		26.00	USA	Homo sapiens	2.07	ON766895		Ohio	North America	BA.2.12.1	Older	Quest Diagnostics Incorporated	202222	CDC-OAMD		22C (Omicron)	Howard et al IT		
+COL/LIME_21695/2022	2022-05-25		24.00	Colombia	Homo sapiens	2.12	OP303170		Colombia	South America	BA.2.12.1	One week ago		202221			22C (Omicron)	Murillo et al G		
+COL/LIME_4737/2022	2022-05-29		25.00	Colombia	Homo sapiens	2.11	OP303166		Colombia	South America	BA.2.12.1	One week ago		202222			22C (Omicron)	Murillo et al H		
+COL/LIME_22086/2022	2022-06-22		25.00	Colombia	Homo sapiens	2.15	OP303175	BA.2.12.1	Colombia	South America	BA.2.12.1	One week ago		202225		0.00	22C (Omicron)	Murillo et al I		
+USA/VA-VTVAS3-GSC34666/2022	2022-04-23		26.00	USA	Homo sapiens	2.04	ON711622	BA.2.12.1	Virginia	North America	BA.2.12.1	Older		202216			22C (Omicron)	Laoh et al		
+USA/KY-CDC-LC0781747/2022	2022-07-07		26.00	USA	Homo sapiens	2.13	OP090731	BA.2.12.1	Kentucky	North America	BA.2.12.1	Older	Laboratory Corporation of America	202227	CDC-OAMD	0.00	22C (Omicron)	Howard et al IU		-38.69
+USA/VT-Broad-CRSP_T5OKFYH4JQ7FYZIW/2022	2022-03-18		26.00	USA	Homo sapiens	2.12	ON095303	BA.2.12.1	Vermont	North America	BA.2.12.1	Older	Broad Institute Clinical Research Sequencing Platform	202211	Broad Institute Genomic Center for Infectious Diseases		22C (Omicron)	Lemieux et al Z		
+USA/2135856/2022	2022-06-22		26.00	USA	Homo sapiens	2.13	OP100297	BA.2.12.1	Iowa	North America	BA.2.12.1	Older	University of Iowa Hospitals and Clinics	202225	State Hygienic Laboratory at the University of Iowa	0.00	22C (Omicron)	Reeb et al J		
+USA/CA-CDC-LC0691726/2022	2022-06-01		26.00	USA	Homo sapiens	2.13	ON789163	BA.2.12.1	California	North America	BA.2.12.1	Older	Laboratory Corporation of America	202222	CDC-OAMD		22C (Omicron)	Howard et al IV		
+USA/NC-CDC-LC0566892/2022	2022-03-21		26.00	USA	Homo sapiens	2.13	ON151155	BA.2.12.1	North Carolina	North America	BA.2.12.1	Older	Laboratory Corporation of America	202212	CDC-OAMD		22C (Omicron)	Howard et al IW		
+USA/DE-CDC-STM-JVZS8QZXK/2022	2022-06-20		26.00	USA	Homo sapiens	2.16	ON899788	BA.2.12.1	Delaware	North America	BA.2.12.1	Older	'Helix'	202225	CDC-OAMD		22C (Omicron)	Howard et al IX		
+USA/VA-CDC-QDX35823332/2022	2022-04-09		26.00	USA	Homo sapiens	2.12	ON363039	BA.2.12.1	Virginia	North America	BA.2.12.1	Older	Quest Diagnostics Incorporated	202214	CDC-OAMD		22C (Omicron)	Howard et al IY		
+USA/MA-CDCBI-CRSP_VPZFF4SWUOYN7QMT/2022	2022-05-25		27.00	USA	Homo sapiens	2.13	ON723692	BA.2.12.1	Massachusetts	North America	BA.2.12.1	Older	Broad Institute Clinical Research Sequencing Platform	202221	Broad Institute Genomic Center for Infectious Diseases		22C (Omicron)	Lemieux et al AA		
+USA/NC-CDC-LC0627145/2022	2022-05-09		26.00	USA	Homo sapiens	2.13	ON590001	BA.2.12.1	North Carolina	North America	BA.2.12.1	Older	Laboratory Corporation of America	202219	CDC-OAMD		22C (Omicron)	Howard et al IZ		
+USA/MI-SH_MSU-E06_I_0380_20/2022	2022-06-13		26.00	USA	Homo sapiens	2.13	OP236270	BA.2.12.1	Michigan	North America	BA.2.12.1	One month ago		202224			22C (Omicron)	Prokop et al		
+USA/ID-CDC-LC0749708/2022	2022-06-27		26.00	USA	Homo sapiens	2.13	ON976247	BA.2.12.1	Idaho	North America	BA.2.12.1	Older		202226		0.00	22C (Omicron)	Howard et al JA		-38.69
+BRA/LACENAL-270228629/2022	2022-07-03		26.00	Brazil	Homo sapiens	2.09	OP107801	BA.2.12.1	Brazil	South America	BA.2.12.1	Older		202227		0.00	22C (Omicron)	Nascimento et al N		-38.69
+USA/NH-CDC-LC0637760/2022	2022-05-13		26.00	USA	Homo sapiens	2.13	ON608584	BA.2.12.1	New Hampshire	North America	BA.2.12.1	Older	Laboratory Corporation of America	202219	CDC-OAMD		22C (Omicron)	Howard et al JB		
+USA/AZ-CDC-STM-WAFFNJPBY/2022	2022-05-16		27.00	USA	Homo sapiens	2.13	ON635234	BA.2.12.1	Arizona	North America	BA.2.12.1	Older	'Helix'	202220	CDC-OAMD		22C (Omicron)	Howard et al JC		
+USA/KY-CDC-LC0583018/2022	2022-04-15		26.00	USA	Homo sapiens	2.13	ON373339	BA.2.12.1	Kentucky	North America	BA.2.12.1	Older	Laboratory Corporation of America	202215	CDC-OAMD		22C (Omicron)	Howard et al JD		
+USA/CT-CDC-LC0758197/2022	2022-06-27		26.00	USA	Homo sapiens	2.13	OP013566	BA.2.12.1	Connecticut	North America	BA.2.12.1	Older		202226		0.00	22C (Omicron)	Howard et al JE		-38.69
+BRA/LACENAL-270228619/2022	2022-06-30		26.00	Brazil	Homo sapiens	2.13	OP107791	BA.2.12.1	Brazil	South America	BA.2.12.1	Older		202226		0.00	22C (Omicron)	Nascimento et al O		-38.69
+USA/NC-CDC-STM-A4ZTWJQYV/2022	2022-05-20		26.00	USA	Homo sapiens	2.13	ON654803	BA.2.12.1	North Carolina	North America	BA.2.12.1	Older	'Helix'	202220	CDC-OAMD		22C (Omicron)	Howard et al JF		
+USA/WA-S19853/2022	2022-04-28		25.00	USA	Homo sapiens	2.12	ON521388		Washington	North America	BA.2	Older	Seattle Flu Study	202217	Seattle Flu Study submission group		21L (Omicron)	Frazar et al		
+BHR/R522690043397/2022	2022-03-23		25.00	Bahrain	Homo sapiens	2.06	ON102912		Bahrain	Asia	BA.2.1	Older		202212			21L (Omicron)	Marhoon et al A		
+MMR/DSMRC-097/2022	2022-03-11		25.00	Myanmar	Homo sapiens	2.11	ON038769		Myanmar	Asia	BA.2	Older		202210			21L (Omicron)	Oo et al H		
+ZAF/SCV2-LA-Z875/2022	2022-02-09		25.00	South Africa	Homo sapiens	2.11	ON055842		South Africa	Africa	BA.2	Older		202206			21L (Omicron)	Valley-Omar et al B		
+England/MILK-391B510/2022	2022-03-04		25.00	United Kingdom	Homo sapiens	2.11	OW177812		England	Europe	BA.2	Older	Lighthouse Lab in Milton Keynes	202209	Wellcome Sanger Institute		21L (Omicron)	The Lighthouse Lab in Milton et al B		
+COL/LIME_20647/2022	2022-03-05		25.00	Colombia	Homo sapiens	2.13	OP303174		Colombia	South America	BA.2	One week ago		202209			21L (Omicron)	Murillo et al J		
+THA/CONI-2549/2022	2022-03-23		25.00	Thailand	Homo sapiens	2.13	ON910625		Bangkok	Asia	BA.2	Older		202212			21L (Omicron)	Batty et al V		
+BHR/22020096452_S90_L001/2022	2022-02-17		25.00	Bahrain	Homo sapiens	2.12	OM844206		Bahrain	Asia	BA.2.10	Older		202207			21L (Omicron)	Alwasti et al O		
+USA/FL-BPHL-7706/2022	2022-04-22		25.00	USA	Homo sapiens	2.11	ON673671		Florida	North America	BA.2.10	Older	Florida Bureau of Public Health Laboratories	202216	FLDOH		21L (Omicron)	Schmedes et al H		
+USA/TX-CDC-QDX36514669/2022	2022-04-30		25.00	USA	Homo sapiens	2.08	ON530622		Texas	North America	BA.2	Older	Quest Diagnostics Incorporated	202217	CDC-OAMD		21L (Omicron)	Howard et al JG		
+USA/IN-CDC-STM-Y4ZX3MBXS/2022	2022-05-16		25.00	USA	Homo sapiens	2.08	ON635205		Indiana	North America	BA.2	Older	'Helix'	202220	CDC-OAMD		21L (Omicron)	Howard et al JH		
+USA/MA-CDC-STM-CTSX7WMVF/2022	2022-03-14		25.00	USA	Homo sapiens	2.12	ON142693		Massachusetts	North America	BA.2	Older	'Helix'	202211	CDC-OAMD		21L (Omicron)	Howard et al JI		
+VNM/HCMC_15142/2022	2022-02-23		25.00	Vietnam	Homo sapiens	2.12	OP317530		Vietnam	Asia	BA.2	One week ago		202208			21L (Omicron)	Nguyen et al I		
+OX148955	2022-05-17		24.00	Slovakia	Homo sapiens	2.06	OX148955		Slovakia	Europe	BA.2	Older	Regional Public Health Authority with the seat in Trenčín, Slovakia	202220	Regional Public Health Authority with the seat in Trenčín, Slovakia		21L (Omicron)	? O		
+Homospiens/BHR/22690046868_S5_L001/2022	2022-04-06		24.00	Bahrain	Homo sapiens	2.07	ON384971		Bahrain	Asia	BA.2	Older		202214			21L (Omicron)	Marhoon et al B		
+BHR/22970207086_S75_L001/2022	2022-05-16		25.00	Bahrain	Homo sapiens	2.04	ON627557		Bahrain	Asia	BA.2	Older		202220			21L (Omicron)	Marhoon et al C		
+BRA/LACENAL-270228631/2022	2022-07-04		25.00	Brazil	Homo sapiens	2.11	OP107803		Brazil	South America	BA.2.48	Older		202227		0.00	21L (Omicron)	Nascimento et al P		-38.69
+OX015525	2022-04-27		25.00	Slovakia	Homo sapiens	2.07	OX015525		Slovakia	Europe	BA.2	Older	Public Health Authority of the Slovak Republic	202217	Public Health Authority of the Slovak Republic		21L (Omicron)	? O		
+USA/WA-CDC-UW22051620653/2022	2022-05-16		24.00	USA	Homo sapiens	2.07	ON689143		Washington	North America	BA.2	Older	UW Virology Lab	202220	CDC-OAMD		21L (Omicron)	Howard et al JJ		
+KEN/SS8376/2022	2022-05-11		25.00	Kenya	Homo sapiens	2.16	ON603288		Kenya	Africa	BA.2	Older		202219			21L (Omicron)	Githinji et al BY		
+USA/IL-CDC-QDX36066003/2022	2022-04-18		25.00	USA	Homo sapiens	2.08	ON451454		Illinois	North America	BA.2	Older	Quest Diagnostics Incorporated	202216	CDC-OAMD		21L (Omicron)	Howard et al JK		
+CHN/NJ_02/2022	2022-02-10		25.00	China	Homo sapiens	2.12	OM698368		China	Asia	BA.2	Older		202206			21L (Omicron)	Geng et al B		
+USA/OK-CDC-QDX35734133/2022	2022-04-06		25.00	USA	Homo sapiens	2.12	ON334923		Oklahoma	North America	BA.2.9	Older	Quest Diagnostics Incorporated	202214	CDC-OAMD		21L (Omicron)	Howard et al JL		
+BRA/LACENAL-270226550/2022	2022-06-19		25.00	Brazil	Homo sapiens	2.12	OP107777		Brazil	South America	BA.2.9	Older		202225			21L (Omicron)	Nascimento et al Q		
+USA/KS-CDC-QDX37459033/2022	2022-05-25		25.00	USA	Homo sapiens	2.11	ON759855		Kansas	North America	BA.2.41	Older	Quest Diagnostics Incorporated	202221	CDC-OAMD		21L (Omicron)	Howard et al JM		
+USA/RI-CDC-LC0576334/2022	2022-04-09		25.00	USA	Homo sapiens	2.11	ON348672		Rhode Island	North America	BA.2.3.16	Older	Laboratory Corporation of America	202214	CDC-OAMD		21L (Omicron)	Howard et al JN		
+USA/KS-CDC-ASC210853519/2022	2022-04-08		25.00	USA	Homo sapiens	2.12	ON310292		Kansas	North America	BA.2	Older	Aegis Sciences Corporation	202214	CDC-OAMD		21L (Omicron)	Howard et al JO		
+USA/2204130404/2022	2022-04-13		25.00	USA	Homo sapiens	2.12	ON385860		New Hampshire	North America	BA.2	Older		202215			21L (Omicron)	Benton et al C		
+THA/CONI-2398/2022	2022-02-24		25.00	Thailand	Homo sapiens	2.12	ON909553		Tak	Asia	BA.2	Older		202208			21L (Omicron)	Batty et al W		
+Denmark/DCGC-516093/2022	2022-05-14		25.00	Denmark	Homo sapiens	2.12	OX205254		Hovedstaden	Europe	BA.2	Older	Department of Bacteria, Parasites and Fungi, Statens Serum Institut, Copenhagen, Denmark	202219	statens serum institut and the danish covid19 genome consortium (dcgc)		21L (Omicron)	Danish Covid-19 Genome et al		
+USA/UT-CDC-2-5847542/2022	2022-03-30		25.00	USA	Homo sapiens	2.12	ON318416		Utah	North America	BA.2	Older	UT-Unified State Labs: Public Health Utah DOH	202213	CDC DVD Genomics and DIscovery Team		21L (Omicron)	Sheth et al AR		
+USA/WI-CDC-LC0633969/2022	2022-05-05		26.00	USA	Homo sapiens	2.12	ON587342		Wisconsin	North America	BA.2	Older	Laboratory Corporation of America	202218	CDC-OAMD		21L (Omicron)	Howard et al JP		
+USA/VT-Broad-CRSP_WEYP6BABZKOOKGWC/2022	2022-03-08		25.00	USA	Homo sapiens	2.12	ON044206		Vermont	North America	BA.2	Older	Broad Institute Clinical Research Sequencing Platform	202210	Broad Institute Genomic Center for Infectious Diseases		21L (Omicron)	Lemieux et al AB		
+CAN/EPI_ISL_12662303/2022	2022-04-11		25.00	Canada	Homo sapiens	2.12	OP237526		Canada	North America	BA.2	One month ago		202215			21L (Omicron)	Lapointe et al B		
+KEN/SS9925/2022	2022-07-04		25.00	Kenya	Homo sapiens	2.12	OP037330		Kenya	Africa	BA.2	Older		202227		0.00	21L (Omicron)	Githinji et al BZ		-38.69
+ON929921	2022-03-29		25.00	Pakistan	Homo sapiens	2.12	ON929921		Sindh	Asia	BA.2	Older		202213			21L (Omicron)	Nisar et al A		
+ON929918	2022-04-03		25.00	Pakistan	Homo sapiens	2.12	ON929918		Sindh	Asia	BA.2	Older		202214			21L (Omicron)	Nisar et al B		
+USA/NH-CDC-LC0566362/2022	2022-03-19		25.00	USA	Homo sapiens	2.12	ON139368		New Hampshire	North America	BA.2	Older	Laboratory Corporation of America	202211	CDC-OAMD		21L (Omicron)	Howard et al JQ		
+England/LSPA-3E03D87/2022	2022-05-06		25.00	United Kingdom	Homo sapiens	2.12	OW963718		England	Europe	BA.2	Older	Rosalind Franklin Laboratory	202218	Wellcome Sanger Institute		21L (Omicron)	Fraser et al		
+LAO/LOMWRU-0435/2022	2022-05-07		25.00	Laos	Homo sapiens	2.13	OP218630		Vientiane	Asia	BA.2	One month ago		202218			21L (Omicron)	Souksavanh et al C		
+USA/NV-CDC-ASC210721557/2022	2022-03-30		25.00	USA	Homo sapiens	2.12	ON236045		Nevada	North America	BA.2	Older	Aegis Sciences Corporation	202213	CDC-OAMD		21L (Omicron)	Howard et al JR		
+MYS/H48_24721/2022	2022-04-05		25.00	Malaysia	Homo sapiens	2.12	ON652332		Malaysia	Asia	BA.2.23	Older		202214			21L (Omicron)	Chan et al P		
+USA/WA-CDC-LC0658669/2022	2022-05-17		25.00	USA	Homo sapiens	2.12	ON656919		Washington	North America	BA.2	Older	Laboratory Corporation of America	202220	CDC-OAMD		21L (Omicron)	Howard et al JS		
+Japan/SZ-NIG-Y214192/2022	2022-03-28		25.00	Japan	Homo sapiens	2.12	BS004273		Shizuoka	Asia	BA.2	Older		202213			21L (Omicron)	Nagaoka et al E		
+COL/LIME_21918/2022	2022-06-09		24.00	Colombia	Homo sapiens	2.07	OP303179		Colombia	South America	BA.2	One week ago		202223			21L (Omicron)	Murillo et al K		
+KEN/SS8369/2022	2022-04-20		26.00	Kenya	Homo sapiens	2.03	ON603283		Kenya	Africa	BA.2	Older		202216			21L (Omicron)	Githinji et al CA		
+USA/NY-CDC-LC0823808/2022	2022-08-01		27.00	USA	Homo sapiens	2.07	OP239314	BA.5	New York	North America	BA.5	One month ago	Laboratory Corporation of America	202231	CDC-OAMD	0.01	22B (Omicron)	Howard et al JT		6.91
+Scotland/LSPA-3EBF50A/2022	2022-07-05		28.00	United Kingdom	Homo sapiens	2.14	OX253423	BA.5	Scotland	Europe	BA.5	Older	Rosalind Franklin Laboratory	202227	Wellcome Sanger Institute	0.00	22B (Omicron)	Fraser et al		6.88
+USA/IN-CDC-STM-TNJZPERKD/2022	2022-08-03		28.00	USA	Homo sapiens	2.06	OP260537	BA.5	Indiana	North America	BA.5.6.2	One month ago	'Helix'	202231	CDC-OAMD	0.01	22B (Omicron)	Howard et al JU		6.88
+USA/VA-CDC-QDX39756847/2022	2022-08-02		27.00	USA	Homo sapiens	2.07	OP261908	BA.5	Virginia	North America	BA.5.6	One month ago	Quest Diagnostics Incorporated	202231	CDC-OAMD	0.01	22B (Omicron)	Howard et al JV		6.88
+USA/CT-CDCBI-CRSP_B7NPN7WE6QYBDUMJ/2022	2022-06-02		27.00	USA	Homo sapiens	2.07	ON799627	BA.5	Connecticut	North America	BA.5.6	Older	Broad Institute Clinical Research Sequencing Platform	202222	Broad Institute Genomic Center for Infectious Diseases		22B (Omicron)	Lemieux et al AC		
+USA/NJ-CDC-LC0827725/2022	2022-08-05		27.00	USA	Homo sapiens	2.14	OP282336	BA.5	New Jersey	North America	BA.5.6	One month ago	Laboratory Corporation of America	202231	CDC-OAMD	0.02	22B (Omicron)	Howard et al JW		6.88
+COL/LIME_22105/2022	2022-06-24		26.00	Colombia	Homo sapiens	2.03	OP303172	BA.5	Colombia	South America	BA.5.6	One week ago		202225		0.00	22B (Omicron)	Murillo et al L		
+USA/VI-CDC-2-6241762/2022	2022-07-11		27.00	USA	Homo sapiens	1.91	OP210597	BA.5	Virgin Islands	North America	BA.5.6	One month ago	VI-US Virgin Islands Department of Health	202228	CDC DVD Genomics and DIscovery Team	0.00	22B (Omicron)	Sheth et al AS		6.88
+USA/KS-CDC-LC0796759/2022	2022-07-19		28.00	USA	Homo sapiens	2.06	OP144600	BA.5	Kansas	North America	BA.5.6	Older	Laboratory Corporation of America	202229	CDC-OAMD	0.00	22B (Omicron)	Howard et al JX		6.88
+USA/NE-CDC-LC0832239/2022	2022-08-07		27.00	USA	Homo sapiens	2.06	OP283023	BA.5	Nebraska	North America	BA.5.6	One month ago	Laboratory Corporation of America	202232	CDC-OAMD	0.03	22B (Omicron)	Howard et al JY		6.88
+USA/AZ-CDC-LC0840209/2022	2022-08-09		29.00	USA	Homo sapiens	2.08	OP306464	BA.5	Arizona	North America	BA.5.5	One week ago	Laboratory Corporation of America	202232	CDC-OAMD	0.03	22B (Omicron)	Howard et al JZ		6.88
+USA/OR-CDC-LC0778683/2022	2022-07-07		29.00	USA	Homo sapiens	2.10	OP063215	BA.5	Oregon	North America	BA.5.5	Older	Laboratory Corporation of America	202227	CDC-OAMD	0.00	22B (Omicron)	Howard et al KA		6.88
+USA/MN-MDH-25496/2022	2022-05-23		28.00	USA	Homo sapiens	2.08	ON661186	BA.5	Minnesota	North America	BA.5.5	Older		202221			22B (Omicron)	Garfin et al C		
+USA/IL-CDC-QDX38633331/2022	2022-07-01		28.00	USA	Homo sapiens	2.08	OP040618	BA.5	Illinois	North America	BA.5.5	Older	Quest Diagnostics Incorporated	202226	CDC-OAMD	0.00	22B (Omicron)	Howard et al KB		6.88
+USA/OKPHL0019823/2022	2022-07-05		28.00	USA	Homo sapiens	2.07	OP180900	BA.5	Oklahoma	North America	BA.5.5	One month ago		202227		0.00	22B (Omicron)	Wang et al C		6.88
+USA/SC-COVID22-4079/2022	2022-08-01		28.00	USA	Homo sapiens	2.08	OP208015	BA.5	South Carolina	North America	BA.5.5	One month ago		202231		0.01	22B (Omicron)	Cox et al		6.88
+USA/TN-CDC-QDX37705451/2022	2022-06-05		28.00	USA	Homo sapiens	2.08	ON829916	BA.5	Tennessee	North America	BA.5.5	Older	Quest Diagnostics Incorporated	202223	CDC-OAMD		22B (Omicron)	Howard et al KC		
+USA/WI-CDC-LC0731818/2022	2022-06-20		28.00	USA	Homo sapiens	2.08	ON917209	BA.5	Wisconsin	North America	BA.5.5	Older	Laboratory Corporation of America	202225	CDC-OAMD		22B (Omicron)	Howard et al KD		
+BGD/icddrb-TND-07-1525/2022	2022-06-14		27.00	Bangladesh	Homo sapiens	2.07	OP164776	BA.5	Bangladesh	Asia	BA.5.3.1	Older		202224			22B (Omicron)	Afrad Moon et al A		
+USA/AL-CDC-STM-9Y7MXMPJR/2022	2022-08-24		27.00	USA	Homo sapiens	2.10	OP373052	BA.5	Alabama	North America	BA.5.3.1	1-2 days ago		202234		0.11	22B (Omicron)	Howard et al KE		6.88
+USA/SD-CDC-2-6238797/2022	2022-07-06		27.00	USA	Homo sapiens	2.08	OP210500	BA.5	South Dakota	North America	BE.3	One month ago	SD Public Health Laboratory	202227	CDC DVD Genomics and DIscovery Team	0.00	22B (Omicron)	Sheth et al AT		6.88
+Denmark/DCGC-528926/2022	2022-06-08		28.00	Denmark	Homo sapiens	2.06	OX214325	BA.5	Nordjylland	Europe	BE.3	Older	Department of Bacteria, Parasites and Fungi, Statens Serum Institut, Copenhagen, Denmark	202223	statens serum institut and the danish covid19 genome consortium (dcgc)		22B (Omicron)	Danish Covid-19 Genome et al		
+USA/KS-CDC-QDX38831385/2022	2022-07-07		27.00	USA	Homo sapiens	2.06	OP083185	BA.5	Kansas	North America	BE.3	Older	Quest Diagnostics Incorporated	202227	CDC-OAMD	0.00	22B (Omicron)	Howard et al KF		6.88
+ZAF/NHLS-UCT-LA-ZA50/2022	2022-05-31		28.00	South Africa	Homo sapiens	2.07	OP053629	BA.5	Western Cape Province	Africa	BE.1	Older	Lancet	202222	University of Cape Town and National Health Laboratory Service		22B (Omicron)	Viana et al BA		
+Liechtenstein/FL-Risch-20220801R412968/2022	2022-08-01		27.00	Liechtenstein	Homo sapiens	2.06	OX289796	BA.5	Liechtenstein	Europe	BE.1	One month ago	Dr. Risch Ostschweiz AG, Lagerstrasse 30, 9470 Buchs	202231	Dr. Risch	0.01	22B (Omicron)	? AX		6.88
+ZAF/NHLS-UCT-LA-ZA82/2022	2022-07-05		26.00	South Africa	Homo sapiens	2.03	OP279895	BA.5	Western Cape Province	Africa	BE.1	One month ago	Lancet	202227	University of Cape Town and National Health Laboratory Service	0.00	22B (Omicron)	Tegally et al Z		6.88
+USA/DE-CDC-LC0784340/2022	2022-07-15		27.00	USA	Homo sapiens	2.06	OP092843	BA.5	Delaware	North America	BE.1	Older	Laboratory Corporation of America	202228	CDC-OAMD	0.00	22B (Omicron)	Howard et al KG		6.88
+USA/SD-CDC-2-6210550/2022	2022-06-29		27.00	USA	Homo sapiens	2.07	OP123433	BA.5	South Dakota	North America	BE.1.1	Older	SD Public Health Laboratory	202226	CDC DVD Genomics and DIscovery Team	0.00	22B (Omicron)	Sheth et al AU		6.88
+Austria/Risch-20220714R12733/2022	2022-07-14		27.00	Austria	Homo sapiens	2.07	OX286744	BA.5	Austria	Europe	BE.1.1	One month ago	Dr. Risch Ostschweiz AG, Lagerstrasse 30, 9470 Buchs	202228	Dr. Risch	0.00	22B (Omicron)	? AY		6.88
+Liechtenstein/FL-Risch-20220714R12843/2022	2022-07-14		27.00	Liechtenstein	Homo sapiens	2.07	OX288054	BA.5	Liechtenstein	Europe	BE.1.1	One month ago	Dr. Risch Ostschweiz AG, Lagerstrasse 30, 9470 Buchs	202228	Dr. Risch	0.00	22B (Omicron)	? AZ		6.88
+FRA/IHUMI6145/2022	2022-05-13		27.00	France	Homo sapiens	2.07	ON898599	BA.5	France	Europe	BA.5.1	Older		202219			22B (Omicron)	Colson et al		
+Switzerland/UN-HUG-38100379/2022	2022-05-18		27.00	Switzerland	Homo sapiens	2.07	OX016834	BA.5	Switzerland	Europe	BA.5.1	Older	Laboratoire de virologie, Geneva, Switzerland	202220	HUG		22B (Omicron)	? BA		
+USA/IN-CDC-LC0852709/2022	2022-08-17		28.00	USA	Homo sapiens	2.09	OP350560	BA.5	Indiana	North America	BA.5.1	3-7 days ago		202233		0.07	22B (Omicron)	Howard et al KH		6.88
+FIN/FIN61-VE6-THL-202213593/2022	2022-05-13		28.00	Finland	Homo sapiens	2.09	OP199047	BA.5	Finland	Europe	BA.5.1	One month ago		202219			22B (Omicron)	Skon et al B		
+BRA/LACENAL-270228646/2022	2022-06-28		27.00	Brazil	Homo sapiens	2.09	OP107816	BA.5	Brazil	South America	BA.5.1	Older		202226		0.00	22B (Omicron)	Nascimento et al R		6.88
+BRA/LACENAL-270228594/2022	2022-06-29		26.00	Brazil	Homo sapiens	2.05	OP107761	BA.5	Brazil	South America	BA.5.1	Older		202226		0.00	22B (Omicron)	Nascimento et al S		6.88
+BRA/LACENAL-270228604/2022	2022-07-01		26.00	Brazil	Homo sapiens	2.04	OP107769	BA.5	Brazil	South America	BA.5.1	Older		202226		0.00	22B (Omicron)	Nascimento et al T		6.88
+BRA/LACENAL-270227029/2022	2022-06-10		26.00	Brazil	Homo sapiens	2.05	OP060396	BA.5	Brazil	South America	BA.5.1	Older		202223			22B (Omicron)	Nascimento et al U		
+BRA/LACENAL-270227097/2022	2022-06-08		25.00	Brazil	Homo sapiens	2.01	OP060448	BA.5	Brazil	South America	BA.5.1	Older		202223			22B (Omicron)	Nascimento et al V		
+BRA/LACENAL-270227105/2022	2022-06-09		25.00	Brazil	Homo sapiens	2.01	OP060453	BA.5	Brazil	South America	BA.5.1	Older		202223			22B (Omicron)	Nascimento et al W		
+USA/MN-MDH-27707/2022	2022-07-01		27.00	USA	Homo sapiens	2.07	OP030542	BA.5	Minnesota	North America	BA.5.1	Older		202226		0.00	22B (Omicron)	Garfin et al D		6.88
+Switzerland/GE-HUG-38353277/2022	2022-06-14		27.00	Switzerland	Homo sapiens	2.07	OX180992	BA.5	Geneva	Europe	BA.5.1	Older	Laboratoire de virologie, Geneva, Switzerland	202224	HUG		22B (Omicron)	? BB		
+USA/VI-CDC-2-6241788/2022	2022-07-12		27.00	USA	Homo sapiens	2.07	OP210635	BA.5	Virgin Islands	North America	BA.5.1	One month ago	VI-US Virgin Islands Department of Health	202228	CDC DVD Genomics and DIscovery Team	0.00	22B (Omicron)	Sheth et al AV		6.88
+USA/PR-CDC-STM-8XX9A54GY/2022	2022-08-11		27.00	USA	Homo sapiens	2.07	OP319475	BA.5	Puerto Rico	North America	BA.5.1	One week ago	'Helix'	202232	CDC-OAMD	0.04	22B (Omicron)	Howard et al KI		6.88
+BGD/icddrb-TND-04-1538/2022	2022-05-29		27.00	Bangladesh	Homo sapiens	2.07	OP164783	BA.5	Bangladesh	Asia	BA.5.1	Older		202222			22B (Omicron)	Afrad Moon et al B		
+USA/CO-CDC-QDX38633389/2022	2022-07-01		27.00	USA	Homo sapiens	2.07	OP040530	BA.5	Colorado	North America	BA.5.1	Older	Quest Diagnostics Incorporated	202226	CDC-OAMD	0.00	22B (Omicron)	Howard et al KJ		6.88
+USA/LA-CDC-STM-XQASVG5ZZ/2022	2022-08-16		27.00	USA	Homo sapiens	2.01	OP370217	BA.5	Louisiana	North America	BA.5.1	1-2 days ago		202233		0.06	22B (Omicron)	Howard et al KK		6.88
+BRA/LACENAL-270228686/2022	2022-07-01		27.00	Brazil	Homo sapiens	2.08	OP107794	BA.5	Brazil	South America	BA.5.1	Older		202226		0.00	22B (Omicron)	Nascimento et al X		6.88
+BRA/LACENAL-270228603/2022	2022-07-01		28.00	Brazil	Homo sapiens	2.07	OP107768	BA.5	Brazil	South America	BA.5.1	Older		202226		0.00	22B (Omicron)	Nascimento et al Y		6.88
+OP062267	2022-07-08		27.00	Germany	Homo sapiens	2.07	OP062267	BA.5	Hesse	Europe	BA.5.1	Older		202227		0.00	22B (Omicron)	Wilhelm et al		6.88
+USA/NM-CDC-LC0777281/2022	2022-07-05		27.00	USA	Homo sapiens	2.07	OP062550	BA.5	New Mexico	North America	BA.5.1	Older	Laboratory Corporation of America	202227	CDC-OAMD	0.00	22B (Omicron)	Howard et al KL		6.88
+USA/NV-CDC-LC0777294/2022	2022-07-05		27.00	USA	Homo sapiens	2.10	OP062335	BA.5	Nevada	North America	BA.5.2	Older	Laboratory Corporation of America	202227	CDC-OAMD	0.00	22B (Omicron)	Howard et al KM		6.88
+MEX/UASIPMO1R2.0/2022	2022-06-15		27.00	Mexico	Homo sapiens	2.11	OP136952	BA.5	Mexico	North America	BA.5.2	Older		202224			22B (Omicron)	Molina Montiel Miguel Angel et al		
+USA/FL-CDC-2-6274781/2022	2022-07-21		27.00	USA	Homo sapiens	2.10	OP292517	BA.5	Florida	North America	BA.5.2	One month ago	FL Bur. of Public Health Laboratories-Jacksonville	202229	CDC DVD Genomics and DIscovery Team	0.00	22B (Omicron)	Sheth et al AW		6.88
+Liechtenstein/FL-Risch-20220606R11718/2022	2022-06-06		27.00	Liechtenstein	Homo sapiens	2.06	OX050983	BA.5	Liechtenstein	Europe	BA.5.2.2	Older	Dr. Risch Ostschweiz AG, Lagerstrasse 30, 9470 Buchs	202223	Dr. Risch		22B (Omicron)	? BC		
+USA/ND-CDC-2-6241872/2022	2022-07-12		27.00	USA	Homo sapiens	2.10	OP210631	BA.5	North Dakota	North America	BA.5.2	One month ago	ND Dept. of Health Laboratory Services-Microbiology	202228	CDC DVD Genomics and DIscovery Team	0.00	22B (Omicron)	Sheth et al AX		6.88
+LAO/LOMWRU-0417/2022	2022-07-21		27.00	Laos	Homo sapiens	2.11	OP218612	BA.5	Vientiane	Asia	BA.5.2	One month ago		202229		0.00	22B (Omicron)	Souksavanh et al D		6.88
+LAO/LOMWRU-0424/2022	2022-08-02		27.00	Laos	Homo sapiens	2.10	OP218619	BA.5	Vientiane	Asia	BA.5.2	One month ago		202231		0.01	22B (Omicron)	Souksavanh et al E		6.88
+BHR/22020479002/2022	2022-08-24		27.00	Bahrain	Homo sapiens	2.09	OP365008	BA.5	Bahrain	Asia	BA.5.2	1-2 days ago		202234		0.11	22B (Omicron)	Marhoon et al D		6.88
+BHR/22020378588/2022	2022-07-06		27.00	Bahrain	Homo sapiens	2.11	OP001810	BA.5	Bahrain	Asia	BA.5.2	Older		202227		0.00	22B (Omicron)	Marhoon et al E		6.88
+HOMOSPIENS/BHR/R45902415030/2022	2022-06-04		27.00	Bahrain	Homo sapiens	2.11	ON849012	BA.5	Bahrain	Asia	BA.5.2	Older		202222			22B (Omicron)	Marhoon et al F		
+Japan/PG-272974/2022	2022-07-07		27.00	Japan	Homo sapiens	2.11	BS004853	BA.5	Shizuoka	Asia	BA.5.2	Older		202227		0.00	22B (Omicron)	Hikida et al B		6.88
+THA/CONI-3560/2022	2022-08-01		27.00	Thailand	Homo sapiens	2.11	OP278877	BA.5	Bangkok	Asia	BA.5.2	One month ago		202231		0.01	22B (Omicron)	Huang et al B		6.88
+Switzerland/GR-Risch-20220729R412930/2022	2022-07-29		27.00	Switzerland	Homo sapiens	2.10	OX284109	BA.5	Graubünden	Europe	BA.5.2	One month ago	Dr. Risch Ostschweiz AG, Lagerstrasse 30, 9470 Buchs	202230	Dr. Risch	0.01	22B (Omicron)	? BD		6.88
+USA/PR-CDC-LC0824857/2022	2022-08-02		28.00	USA	Homo sapiens	2.12	OP240409	BA.5	Puerto Rico	North America	BA.5.2	One month ago	Laboratory Corporation of America	202231	CDC-OAMD	0.01	22B (Omicron)	Howard et al KN		6.88
+ZAF/NHLS-UCT-LA-ZA85/2022	2022-07-03		27.00	South Africa	Homo sapiens	2.07	OP279897	BA.5	Western Cape Province	Africa	BA.5.2	One month ago	Lancet	202227	University of Cape Town and National Health Laboratory Service	0.00	22B (Omicron)	Tegally et al AA		6.88
+MMR/DSMRC-113/2022	2022-07-29		27.00	Myanmar	Homo sapiens	2.10	OP159820	BA.5	Myanmar	Asia	BA.5.2	Older		202230		0.01	22B (Omicron)	Oo et al I		6.88
+LAO/LOMWRU-0354/2022	2022-06-15		27.00	Laos	Homo sapiens	2.11	OP159674	BA.5	Vientiane	Asia	BA.5.2	Older		202224			22B (Omicron)	Souksavanh et al F		
+OP217115	2022-07-18		28.00	Pakistan	Homo sapiens	2.07	OP217115	BA.5	Sindh	Asia	BA.5.2	One month ago		202229		0.00	22B (Omicron)	Khan et al F		6.88
+USA/MA-CDC-LC0752484/2022	2022-06-27		27.00	USA	Homo sapiens	2.11	ON976608	BA.5	Massachusetts	North America	BA.5.2	Older	Laboratory Corporation of America	202226	CDC-OAMD	0.00	22B (Omicron)	Howard et al KO		6.88
+Japan/SZ-NIG-Y220478/2022	2022-06-28		27.00	Japan	Homo sapiens	2.07	BS004977	BA.5	Shizuoka	Asia	BA.5.2	One month ago		202226		0.00	22B (Omicron)	Nagaoka et al F		6.88
+BRA/LACENAL-270228608/2022	2022-07-06		27.00	Brazil	Homo sapiens	2.10	OP107773	BA.5	Brazil	South America	BA.5.2.1	Older		202227		0.00	22B (Omicron)	Nascimento et al Z		6.88
+USA/KS-CDC-LC0833879/2022	2022-08-08		27.00	USA	Homo sapiens	2.12	OP284042	BA.5	Kansas	North America	BF.8	One month ago	Laboratory Corporation of America	202232	CDC-OAMD	0.03	22B (Omicron)	Howard et al KP		6.88
+BRA/LACENAL-270228624/2022	2022-07-01		27.00	Brazil	Homo sapiens	2.10	OP107796	BA.5	Brazil	South America	BA.5.2.1	Older		202226		0.00	22B (Omicron)	Nascimento et al AA		6.88
+OX258826	2022-06-26		26.00	Slovakia	Homo sapiens	2.06	OX258826	BA.5	Slovakia	Europe	BA.5.2.1	Older	Laboratory of Genomics and Bioinformatics, Comenius University Science Park	202226	Laboratory of Genomics and Bioinformatics, Comenius University Science Park	0.00	22B (Omicron)	? O		6.88
+USA/KY-CDC-LC0826602/2022	2022-08-03		29.00	USA	Homo sapiens	2.09	OP248201	BA.5	Kentucky	North America	BA.5.2.1	One month ago	Laboratory Corporation of America	202231	CDC-OAMD	0.01	22B (Omicron)	Howard et al KQ		6.88
+USA/OR-CDC-LC0852507/2022	2022-08-17		27.00	USA	Homo sapiens	2.10	OP350453	BA.5	Oregon	North America	BA.5.2.1	3-7 days ago		202233		0.07	22B (Omicron)	Howard et al KR		6.88
+USA/NM-CDC-LC0823319/2022	2022-08-02		27.00	USA	Homo sapiens	2.10	OP240257	BA.5	New Mexico	North America	BA.5.2.1	One month ago	Laboratory Corporation of America	202231	CDC-OAMD	0.01	22B (Omicron)	Howard et al KS		6.88
+USA/USA_UT-IDEL-20220727077_2022_MN908947.3/2022	2022-07-21		27.00	USA	Homo sapiens	2.09	OP279420	BA.5	Utah	North America	BA.5.2.1	One month ago		202229		0.00	22B (Omicron)	Coombs et al		6.88
+OX155442	2022-06-02		27.00	United Kingdom	Homo sapiens	2.10	OX155442	BA.5	Scotland	Europe	BA.5.2.1	Older	West of Scotland Specialist Virology Centre, NHSGGC / MRC-University of Glasgow Centre for Virus Research	202222	West of Scotland Specialist Virology Centre, NHSGGC / MRC-University of Glasgow Centre for Virus Research		22B (Omicron)	? AH		
+USA/V04692/2022	2022-06-19		26.00	USA	Homo sapiens	2.06	OP272320	BA.5	Arkansas	North America	BA.5.2.1	One month ago	University of Arkansas for Medical Sciences	202225	University of Arkansas Medical Sciences/Arkansas Children's Hospital		22B (Omicron)	Kandel et al C		
+USA/NJ-CDC-QDX39214852/2022	2022-07-19		27.00	USA	Homo sapiens	2.06	OP156508	BA.5	New Jersey	North America	BF.10	Older	Quest Diagnostics Incorporated	202229	CDC-OAMD	0.00	22B (Omicron)	Howard et al KT		6.88
+Switzerland/VS-ICH-2220805319/2022	2022-08-03		27.00	Switzerland	Homo sapiens	2.09	OX281241	BA.5	Valais	Europe	BA.5.2.1	One month ago	Valais Hospital, Central Institute; Sion, Switzerland	202231	Hopital du Valais, Institut Central des Hopitaux, Sion, Switzerland	0.01	22B (Omicron)	? BE		6.88
+USA/MI-CDC-STM-R5RM48CME/2022	2022-06-29		27.00	USA	Homo sapiens	2.10	ON958975	BA.5	Michigan	North America	BA.5.2.1	Older	'Helix'	202226	CDC-OAMD	0.00	22B (Omicron)	Howard et al KU		6.88
+ON929960	2022-06-14		27.00	Pakistan	Homo sapiens	2.10	ON929960	BA.5	Sindh	Asia	BA.5.2.1	Older		202224			22B (Omicron)	Nisar et al C		
+USA/RI-CDC-LC0712100/2022	2022-06-12		27.00	USA	Homo sapiens	2.10	ON883084	BA.5	Rhode Island	North America	BF.1	Older	Laboratory Corporation of America	202224	CDC-OAMD		22B (Omicron)	Howard et al KV		
+KEN/C117649/2022	2022-06-14		27.00	Kenya	Homo sapiens	2.11	ON872024	BA.5	Kenya	Africa	BA.5.2.1	Older		202224			22B (Omicron)	Githinji et al CB		
+England/LSPA-3F53385/2022	2022-08-06		27.00	United Kingdom	Homo sapiens	2.10	OX283078	BA.5	England	Europe	BA.5.2.1	One month ago	Rosalind Franklin Laboratory	202231	Wellcome Sanger Institute	0.02	22B (Omicron)	Fraser et al		6.88
+ZAF/NHLS-UCT-LA-ZA89/2022	2022-07-06		27.00	South Africa	Homo sapiens	2.10	OP279850	BA.5	Western Cape Province	Africa	BA.5.2.1	One month ago	Lancet	202227	University of Cape Town and National Health Laboratory Service	0.00	22B (Omicron)	Tegally et al AB		6.88
+USA/MP-CDC-2-6215028/2022	2022-07-05		27.00	USA	Homo sapiens	2.10	OP123500	BA.5	Northern Mariana Islands	North America	BA.5.2.1	Older	Commonwealth Healthcare Center	202227	CDC DVD Genomics and DIscovery Team	0.00	22B (Omicron)	Sheth et al AY		6.88
+USA/MP-CDC-2-6215134/2022	2022-07-05		27.00	USA	Homo sapiens	2.10	OP123493	BA.5	Northern Mariana Islands	North America	BA.5.2.1	Older	Commonwealth Healthcare Center	202227	CDC DVD Genomics and DIscovery Team	0.00	22B (Omicron)	Sheth et al AZ		6.88
+Denmark/DCGC-562796/2022	2022-08-07		27.00	Denmark	Homo sapiens	2.10	OX293479	BA.5	Syddanmark	Europe	BF.5	One month ago	Department of Bacteria, Parasites and Fungi, Statens Serum Institut, Copenhagen, Denmark	202232	statens serum institut and the danish covid19 genome consortium (dcgc)	0.03	22B (Omicron)	Danish Covid-19 Genome et al		6.88
+Denmark/DCGC-558345/2022	2022-07-25		27.00	Denmark	Homo sapiens	2.10	OX283920	BA.5	Syddanmark	Europe	BF.5	One month ago	Department of Bacteria, Parasites and Fungi, Statens Serum Institut, Copenhagen, Denmark	202230	statens serum institut and the danish covid19 genome consortium (dcgc)	0.00	22B (Omicron)	Danish Covid-19 Genome et al		6.88
+Japan/PG-334336/2022	2022-08-10		27.00	Japan	Homo sapiens	2.10	BS005264	BA.5	Shizuoka	Asia	BF.5	One week ago		202232		0.04	22B (Omicron)	Hikida et al C		6.88
+USA/NY-CDC-LC0820054/2022	2022-08-05		27.00	USA	Homo sapiens	2.10	OP241815	BA.5	New York	North America	BA.5.2.1	One month ago	Laboratory Corporation of America	202231	CDC-OAMD	0.02	22B (Omicron)	Howard et al KW		6.88
+USA/WY-CDC-LC0811158/2022	2022-07-27		27.00	USA	Homo sapiens	2.10	OP201405	BA.5	Wyoming	North America	BA.5.2.1	One month ago	Laboratory Corporation of America	202230	CDC-OAMD	0.00	22B (Omicron)	Howard et al KX		6.88
+USA/WV-CDC-LC0852833/2022	2022-08-18		28.00	USA	Homo sapiens	2.12	OP350745	BA.5	West Virginia	North America	BA.5.2.1	3-7 days ago		202233		0.08	22B (Omicron)	Howard et al KY		6.88
+USA/VA-VTVAS3-GSC37506/2022	2022-07-12		27.00	USA	Homo sapiens	2.10	OP327739	BA.5	Washington Dc	North America	BA.5.2.1	One week ago		202228		0.00	22B (Omicron)	Finkielstein et al		6.88
+ON929922	2022-05-31		27.00	Pakistan	Homo sapiens	2.10	ON929922	BA.5	Sindh	Asia	BA.5.2.1	Older		202222			22B (Omicron)	Nisar et al D		

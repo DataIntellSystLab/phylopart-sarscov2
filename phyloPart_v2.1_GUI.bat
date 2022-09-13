@@ -1,0 +1,1 @@
+java -Xmx8G -jar PhyloPart_v2.1.jar GUI

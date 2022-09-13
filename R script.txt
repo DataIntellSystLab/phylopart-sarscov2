@@ -1,0 +1,189 @@
+rm(list=ls(all=TRUE))
+
+library(ape)
+library(phytools)
+library(mcclust)
+library(picante)
+library(RColorBrewer)
+library(treebalance)
+
+setwd("C:/Users/m.prosperi/Downloads/PhyloPart_v2.1")
+
+treeN=read.tree("nextstrain_ncov_open_north-america_all-time_tree.nwk")
+treeN=midpoint.root(treeN)
+write.tree(treeN,"nextstrain_ncov_open_north-america_all-time_tree.rerooted.nwk")
+treeG=read.tree("nextstrain_ncov_open_global_all-time_tree.nwk")
+treeG=midpoint.root(treeG)
+write.tree(treeG,"nextstrain_ncov_open_global_all-time_tree.rerooted.nwk")
+treeO=read.tree("nextstrain_ncov_open_global_all-time_Omicron21M_tree.nwk")
+treeO=midpoint.root(treeO)
+write.tree(treeO,"nextstrain_ncov_open_global_all-time_Omicron21M_tree.rerooted.nwk")
+treeD=read.tree("nextstrain_ncov_open_global_all-time_Delta21A_tree.nwk")
+treeD=midpoint.root(treeD)
+write.tree(treeD,"nextstrain_ncov_open_global_all-time_Delta21A_tree.rerooted.nwk")
+
+data=read.delim("nextstrain_ncov_open_global_all-time_metadata.txt",sep="\t",header=T)
+
+clusts=list()
+for (i in 1:25)
+{
+	nam=paste("run",i,"_nextstrain_ncov_open_global_all-time_tree.rerooted.csv",sep="")
+	clusts[[i]]=read.delim(nam,sep=",",header=T)
+}
+best_ari1=0
+best_ind1=0
+for (i in 1:25)
+{
+	datam=merge(data,clusts[[i]],by.y="leafname",by.x="strain")
+	maxx=max(datam$clustername)
+	for (j in 1:length(datam$clustername)) {if (datam$clustername[j]==0) {maxx=maxx+1; datam$clustername[j]=maxx}}
+	ari=arandi(datam$clustername,datam$pango_lineage,adjust=T)
+	cat("i=",i," ari=",ari," best=",best_ari1,"\r\n")
+	if (!is.nan(ari)) {if (ari>best_ari1) {best_ari1=ari; best_ind1=i}}
+}
+	
+remov=names(which(table(data$pango_lineage)<2))
+pang_cl=NULL
+for (j in 1:length(data$pango_lineage)) 
+{
+	if ( data$pango_lineage[j] %in% remov ) {pang_cl=c(pang_cl,"remov")}
+	else {pang_cl=c(pang_cl,data$pango_lineage[j])}
+}
+data=cbind(data,pang_cl)
+
+best_ari=0
+best_ind=0
+for (i in 1:25)
+{
+	datam=merge(data,clusts[[i]],by.y="leafname",by.x="strain")
+	remov=unique(c(which(datam$clustername==0),which(datam$pang_cl=="remov")))
+	ari=arandi(datam$clustername[-remov],datam$pang_cl[-remov],adjust=T)
+	cat("i=",i," ari=",ari," best=",best_ari,"\r\n")
+	if (!is.nan(ari)) {if (ari>best_ari) {best_ari=ari; best_ind=i}}
+}
+
+treeGt=read.tree("nextstrain_ncov_open_global_all-time_tree.nwk")
+palett=rainbow(2697); #rainbow; topo.colors; heat.colors; cm.colors; terrain.colors; colors()
+palett=sample(palett)
+par(mfcol=c(1,3))
+par(mar=c(0,0,3,0))
+typ="f"
+databest1=merge(data,clusts[[4]],by.y="leafname",by.x="strain")
+maxx=max(databest1$clustername)
+for (j in 1:length(databest1$clustername)) {if (databest1$clustername[j]==0) {maxx=maxx+1; databest1$clustername[j]=maxx}}
+tips=as.data.frame(treeGt$tip.label);names(tips)="tips"
+tips=merge(tips,databest1,by.y="strain",by.x="tips",sort=F)
+colors2=rep("black", Nedge(treeGt))
+clst=as.numeric(as.factor(tips$clustername))
+colst=palett[clst]
+colors2[which(treeGt$edge[,2] %in% 1:Ntip(treeGt))]=colst
+plot(treeGt,show.tip.label=F,type=typ,edge.color=colors2,main="Phylopart (3rd perc. distance threshold)")
+databest1=merge(data,clusts[[best_ind1]],by.y="leafname",by.x="strain")
+maxx=max(databest1$clustername)
+for (j in 1:length(databest1$clustername)) {if (databest1$clustername[j]==0) {maxx=maxx+1; databest1$clustername[j]=maxx}}
+tips=as.data.frame(treeGt$tip.label);names(tips)="tips"
+tips=merge(tips,databest1,by.y="strain",by.x="tips",sort=F)
+colors2=rep("black", Nedge(treeGt))
+clst=as.numeric(as.factor(tips$clustername))
+colst=palett[clst]
+colors2[which(treeGt$edge[,2] %in% 1:Ntip(treeGt))]=colst
+plot(treeGt,show.tip.label=F,type=typ,edge.color=colors2,main="Phylopart (8th perc. distance threshold)",cex=1.5)
+colors2=rep("black", Nedge(treeGt))
+clst=as.numeric(as.factor(tips$pango_lineage))
+colst=palett[clst]
+colors2[which(treeGt$edge[,2] %in% 1:Ntip(treeGt))]=colst
+plot(treeGt,show.tip.label=F,type=typ,edge.color=colors2,main="Pango lineage",cex=1.5)
+
+
+treeG=read.tree("nextstrain_ncov_open_global_all-time_tree.rerooted.nwk")
+treeN=read.tree("nextstrain_ncov_open_north-america_all-time_tree.rerooted.nwk")
+treeO=read.tree("nextstrain_ncov_open_global_all-time_Omicron21M_tree.rerooted.nwk")
+treeD=read.tree("nextstrain_ncov_open_global_all-time_Delta21A_tree.rerooted.nwk")
+#treeG=root(treeG,"Wuhan-Hu-1/2019"); treeN=root(treeN,"Wuhan-Hu-1/2019"); treeO=root(treeO,"IRQ/NAJAF/2021"); treeD=root(treeD,"USA/WI-CDC-ASC210234108/2021");
+treeG=multi2di(treeG); treeN=multi2di(treeN); treeO=multi2di(treeO); treeD=multi2di(treeD);  
+
+
+app=c(areaPerPairI(treeG),areaPerPairI(treeN),areaPerPairI(treeO),areaPerPairI(treeD)) #area per pair index
+ald=c(avgLeafDepI(treeG),avgLeafDepI(treeN),avgLeafDepI(treeO),avgLeafDepI(treeD)) #average leaf depth index
+che=c(cherryI(treeG),cherryI(treeN),cherryI(treeO),cherryI(treeD)) #cherry index
+col=c(collessI(treeG),collessI(treeN),collessI(treeO),collessI(treeD)) #Colless index
+mdw=c(maxDelW(treeG),maxDelW(treeN),maxDelW(treeO),maxDelW(treeD)) #Maximal difference in widths
+rog=c(rogersI(treeG),rogersI(treeN),rogersI(treeO),rogersI(treeD)) #Rogers index
+rqu=c(rQuartetI(treeG),rQuartetI(treeN),rQuartetI(treeO),rQuartetI(treeD)) #Roooted quartet index
+sac=c(sackinI(treeG),sackinI(treeN),sackinI(treeO),sackinI(treeD)) #Sackin index
+sta=c(stairs1(treeG),stairs1(treeN),stairs1(treeO),stairs1(treeD)) #Staircase-ness
+tco=c(totCophI(treeG),totCophI(treeN),totCophI(treeO),totCophI(treeD)) #Total cophenetic index
+
+boots=200
+appr=NULL
+for (i in 1:boots) {appr = rbind( appr, c( areaPerPairI(rtree(Ntip(treeG))), areaPerPairI(rtree(Ntip(treeN))), areaPerPairI(rtree(Ntip(treeO))), areaPerPairI(rtree(Ntip(treeD))) ) )}
+aldr=NULL
+for (i in 1:boots) {aldr = rbind( aldr, c( avgLeafDepI(rtree(Ntip(treeG))), avgLeafDepI(rtree(Ntip(treeN))), avgLeafDepI(rtree(Ntip(treeO))), avgLeafDepI(rtree(Ntip(treeD))) ) )}
+cher=NULL
+for (i in 1:boots) {cher = rbind( cher, c( cherryI(rtree(Ntip(treeG))), cherryI(rtree(Ntip(treeN))), cherryI(rtree(Ntip(treeO))), cherryI(rtree(Ntip(treeD))) ) )}
+colr=NULL
+for (i in 1:boots) {colr = rbind( colr, c( collessI(rtree(Ntip(treeG))), collessI(rtree(Ntip(treeN))), collessI(rtree(Ntip(treeO))), collessI(rtree(Ntip(treeD))) ) )}
+mdwr=NULL
+for (i in 1:boots) {mdwr = rbind( mdwr, c( maxDelW(rtree(Ntip(treeG))), maxDelW(rtree(Ntip(treeN))), maxDelW(rtree(Ntip(treeO))), maxDelW(rtree(Ntip(treeD))) ) )}
+rogr=NULL
+for (i in 1:boots) {rogr = rbind( rogr, c( rogersI(rtree(Ntip(treeG))), rogersI(rtree(Ntip(treeN))), rogersI(rtree(Ntip(treeO))), rogersI(rtree(Ntip(treeD))) ) )}
+rqur=NULL
+for (i in 1:boots) {rqur = rbind( rqur, c( rQuartetI(rtree(Ntip(treeG))), rQuartetI(rtree(Ntip(treeN))), rQuartetI(rtree(Ntip(treeO))), rQuartetI(rtree(Ntip(treeD))) ) )}
+sacr=NULL
+for (i in 1:boots) {sacr = rbind( sacr, c( sackinI(rtree(Ntip(treeG))), sackinI(rtree(Ntip(treeN))), sackinI(rtree(Ntip(treeO))), sackinI(rtree(Ntip(treeD))) ) )}
+star=NULL
+for (i in 1:boots) {star = rbind( star, c( stairs1(rtree(Ntip(treeG))), stairs1(rtree(Ntip(treeN))), stairs1(rtree(Ntip(treeO))), stairs1(rtree(Ntip(treeD))) ) )}
+tcor=NULL
+for (i in 1:boots) {tcor = rbind( tcor, c( totCophI(rtree(Ntip(treeG))), totCophI(rtree(Ntip(treeN))), totCophI(rtree(Ntip(treeO))), totCophI(rtree(Ntip(treeD))) ) )}
+
+rqu=log(rqu+1)
+rqur=log(rqur+1)
+
+app=round(app,1)
+ald=round(ald,1)
+che=round(che,1)
+col=round(col,1)
+mdw=round(mdw,1)
+rog=round(rog,1)
+rqu=round(rqu,1)
+sac=round(sac,1)
+sta=round(sta,3)
+tco=round(tco,1)
+
+appr=round(appr,1)
+aldr=round(aldr,1)
+cher=round(cher,1)
+colr=round(colr,1)
+mdwr=round(mdwr,1)
+rogr=round(rogr,1)
+rqur=round(rqur,1)
+sacr=round(sacr,1)
+star=round(star,3)
+tcor=round(tcor,1)
+
+cat(
+"Area per pair index;",app[1]," (",min(appr[,1]),"-",max(appr[,1]),");",app[2]," (",min(appr[,2]),"-",max(appr[,2]),");",app[3]," (",min(appr[,3]),"-",max(appr[,4]),");",app[4]," (",min(appr[,4]),"-",max(appr[,4]),")\n",
+"Average leaf depth index;",ald[1]," (",min(aldr[,1]),"-",max(aldr[,1]),");",ald[2]," (",min(aldr[,2]),"-",max(aldr[,2]),");",ald[3]," (",min(aldr[,3]),"-",max(aldr[,3]),");",ald[4]," (",min(aldr[,4]),"-",max(aldr[,4]),")\n",
+"Cherry index;",che[1]," (",min(cher[,1]),"-",max(cher[,1]),");",che[2]," (",min(cher[,2]),"-",max(cher[,2]),");",che[3]," (",min(cher[,3]),"-",max(cher[,3]),");",che[4]," (",min(cher[,4]),"-",max(cher[,4]),")\n",
+"Colless index;",col[1]," (",min(colr[,1]),"-",max(colr[,1]),");",col[2]," (",min(colr[,2]),"-",max(colr[,2]),");",col[3]," (",min(colr[,3]),"-",max(colr[,3]),");",col[4]," (",min(colr[,4]),"-",max(colr[,4]),")\n",
+"Maximal difference in widths;",mdw[1]," (",min(mdwr[,1]),"-",max(mdwr[,1]),");",mdw[2]," (",min(mdwr[,2]),"-",max(mdwr[,2]),");",mdw[3]," (",min(mdwr[,3]),"-",max(mdwr[,3]),");",mdw[4]," (",min(mdwr[,4]),"-",max(mdwr[,4]),")\n",
+"Rogers index;",rog[1]," (",min(rogr[,1]),"-",max(rogr[,1]),");",rog[2]," (",min(rogr[,2]),"-",max(rogr[,2]),");",rog[3]," (",min(rogr[,3]),"-",max(rogr[,3]),");",rog[4]," (",min(rogr[,4]),"-",max(rogr[,4]),")\n",
+"Log roooted quartet index;",rqu[1]," (",min(rqur[,1]),"-",max(rqur[,1]),");",rqu[2]," (",min(rqur[,2]),"-",max(rqur[,2]),");",rqu[3]," (",min(rqur[,3]),"-",max(rqur[,3]),");",rqu[4]," (",min(rqur[,4]),"-",max(rqur[,4]),")\n",
+"Sackin index;",sac[1]," (",min(sacr[,1]),"-",max(sacr[,1]),");",sac[2]," (",min(sacr[,2]),"-",max(sacr[,2]),");",sac[3]," (",min(sacr[,3]),"-",max(sacr[,3]),");",sac[4]," (",min(sacr[,4]),"-",max(sacr[,4]),")\n",
+"Staircase-ness;",sta[1]," (",min(star[,1]),"-",max(star[,1]),");",sta[2]," (",min(star[,2]),"-",max(star[,2]),");",sta[3]," (",min(star[,3]),"-",max(star[,3]),");",sta[4]," (",min(star[,4]),"-",max(star[,4]),")\n",
+"Total cophenetic index;",tco[1]," (",min(tcor[,1]),"-",max(tcor[,1]),");",tco[2]," (",min(tcor[,2]),"-",max(tcor[,2]),");",tco[3]," (",min(tcor[,3]),"-",max(tcor[,3]),");",tco[4]," (",min(tcor[,4]),"-",max(tcor[,4]),")\n",
+sep="")
+
+cat(
+"Area per pair index;",app[1]," (",quantile(appr[,1],0.05),"-",quantile(appr[,1],0.95),");",app[2]," (",quantile(appr[,2],0.05),"-",quantile(appr[,2],0.95),");",app[3]," (",quantile(appr[,3],0.05),"-",quantile(appr[,4],0.95),");",app[4]," (",quantile(appr[,4],0.05),"-",quantile(appr[,4],0.95),")\n",
+"Average leaf depth index;",ald[1]," (",quantile(aldr[,1],0.05),"-",quantile(aldr[,1],0.95),");",ald[2]," (",quantile(aldr[,2],0.05),"-",quantile(aldr[,2],0.95),");",ald[3]," (",quantile(aldr[,3],0.05),"-",quantile(aldr[,3],0.95),");",ald[4]," (",quantile(aldr[,4],0.05),"-",quantile(aldr[,4],0.95),")\n",
+"Cherry index;",che[1]," (",quantile(cher[,1],0.05),"-",quantile(cher[,1],0.95),");",che[2]," (",quantile(cher[,2],0.05),"-",quantile(cher[,2],0.95),");",che[3]," (",quantile(cher[,3],0.05),"-",quantile(cher[,3],0.95),");",che[4]," (",quantile(cher[,4],0.05),"-",quantile(cher[,4],0.95),")\n",
+"Colless index;",col[1]," (",quantile(colr[,1],0.05),"-",quantile(colr[,1],0.95),");",col[2]," (",quantile(colr[,2],0.05),"-",quantile(colr[,2],0.95),");",col[3]," (",quantile(colr[,3],0.05),"-",quantile(colr[,3],0.95),");",col[4]," (",quantile(colr[,4],0.05),"-",quantile(colr[,4],0.95),")\n",
+"Maximal difference in widths;",mdw[1]," (",quantile(mdwr[,1],0.05),"-",quantile(mdwr[,1],0.95),");",mdw[2]," (",quantile(mdwr[,2],0.05),"-",quantile(mdwr[,2],0.95),");",mdw[3]," (",quantile(mdwr[,3],0.05),"-",quantile(mdwr[,3],0.95),");",mdw[4]," (",quantile(mdwr[,4],0.05),"-",quantile(mdwr[,4],0.95),")\n",
+"Rogers index;",rog[1]," (",quantile(rogr[,1],0.05),"-",quantile(rogr[,1],0.95),");",rog[2]," (",quantile(rogr[,2],0.05),"-",quantile(rogr[,2],0.95),");",rog[3]," (",quantile(rogr[,3],0.05),"-",quantile(rogr[,3],0.95),");",rog[4]," (",quantile(rogr[,4],0.05),"-",quantile(rogr[,4],0.95),")\n",
+"Log roooted quartet index;",rqu[1]," (",quantile(rqur[,1],0.05),"-",quantile(rqur[,1],0.95),");",rqu[2]," (",quantile(rqur[,2],0.05),"-",quantile(rqur[,2],0.95),");",rqu[3]," (",quantile(rqur[,3],0.05),"-",quantile(rqur[,3],0.95),");",rqu[4]," (",quantile(rqur[,4],0.05),"-",quantile(rqur[,4],0.95),")\n",
+"Sackin index;",sac[1]," (",quantile(sacr[,1],0.05),"-",quantile(sacr[,1],0.95),");",sac[2]," (",quantile(sacr[,2],0.05),"-",quantile(sacr[,2],0.95),");",sac[3]," (",quantile(sacr[,3],0.05),"-",quantile(sacr[,3],0.95),");",sac[4]," (",quantile(sacr[,4],0.05),"-",quantile(sacr[,4],0.95),")\n",
+"Staircase-ness;",sta[1]," (",quantile(star[,1],0.05),"-",quantile(star[,1],0.95),");",sta[2]," (",quantile(star[,2],0.05),"-",quantile(star[,2],0.95),");",sta[3]," (",quantile(star[,3],0.05),"-",quantile(star[,3],0.95),");",sta[4]," (",quantile(star[,4],0.05),"-",quantile(star[,4],0.95),")\n",
+"Total cophenetic index;",tco[1]," (",quantile(tcor[,1],0.05),"-",quantile(tcor[,1],0.95),");",tco[2]," (",quantile(tcor[,2],0.05),"-",quantile(tcor[,2],0.95),");",tco[3]," (",quantile(tcor[,3],0.05),"-",quantile(tcor[,3],0.95),");",tco[4]," (",quantile(tcor[,4],0.05),"-",quantile(tcor[,4],0.95),")\n",
+sep="")
+
