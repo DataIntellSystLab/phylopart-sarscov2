@@ -181,6 +181,8 @@ for (i in 1:boots) {tcor = rbind( tcor, c( totCophI(rtree(Ntip(treeG))), totCoph
 
 rqu=log(rqu+1)
 rqur=log(rqur+1)
+tco=log(tco+1)
+tcor=log(tcor+1)
 
 abs(app[1]-mean(appr[,1]))/(sd(appr[,1])/sqrt(length(appr[,1])))
 abs(app[2]-mean(appr[,2]))/(sd(appr[,2])/sqrt(length(appr[,2])))
@@ -265,7 +267,7 @@ cat(
 "Log roooted quartet index;",rqu[1]," (",min(rqur[,1]),"-",max(rqur[,1]),");",rqu[2]," (",min(rqur[,2]),"-",max(rqur[,2]),");",rqu[3]," (",min(rqur[,3]),"-",max(rqur[,3]),");",rqu[4]," (",min(rqur[,4]),"-",max(rqur[,4]),")\n",
 "Sackin index;",sac[1]," (",min(sacr[,1]),"-",max(sacr[,1]),");",sac[2]," (",min(sacr[,2]),"-",max(sacr[,2]),");",sac[3]," (",min(sacr[,3]),"-",max(sacr[,3]),");",sac[4]," (",min(sacr[,4]),"-",max(sacr[,4]),")\n",
 "Staircase-ness;",sta[1]," (",min(star[,1]),"-",max(star[,1]),");",sta[2]," (",min(star[,2]),"-",max(star[,2]),");",sta[3]," (",min(star[,3]),"-",max(star[,3]),");",sta[4]," (",min(star[,4]),"-",max(star[,4]),")\n",
-"Total cophenetic index;",tco[1]," (",min(tcor[,1]),"-",max(tcor[,1]),");",tco[2]," (",min(tcor[,2]),"-",max(tcor[,2]),");",tco[3]," (",min(tcor[,3]),"-",max(tcor[,3]),");",tco[4]," (",min(tcor[,4]),"-",max(tcor[,4]),")\n",
+"Log total cophenetic index;",tco[1]," (",min(tcor[,1]),"-",max(tcor[,1]),");",tco[2]," (",min(tcor[,2]),"-",max(tcor[,2]),");",tco[3]," (",min(tcor[,3]),"-",max(tcor[,3]),");",tco[4]," (",min(tcor[,4]),"-",max(tcor[,4]),")\n",
 sep="")
 
 cat(
@@ -278,6 +280,6 @@ cat(
 "Log roooted quartet index;",rqu[1]," (",quantile(rqur[,1],0.05),"-",quantile(rqur[,1],0.95),");",rqu[2]," (",quantile(rqur[,2],0.05),"-",quantile(rqur[,2],0.95),");",rqu[3]," (",quantile(rqur[,3],0.05),"-",quantile(rqur[,3],0.95),");",rqu[4]," (",quantile(rqur[,4],0.05),"-",quantile(rqur[,4],0.95),")\n",
 "Sackin index;",sac[1]," (",quantile(sacr[,1],0.05),"-",quantile(sacr[,1],0.95),");",sac[2]," (",quantile(sacr[,2],0.05),"-",quantile(sacr[,2],0.95),");",sac[3]," (",quantile(sacr[,3],0.05),"-",quantile(sacr[,3],0.95),");",sac[4]," (",quantile(sacr[,4],0.05),"-",quantile(sacr[,4],0.95),")\n",
 "Staircase-ness;",sta[1]," (",quantile(star[,1],0.05),"-",quantile(star[,1],0.95),");",sta[2]," (",quantile(star[,2],0.05),"-",quantile(star[,2],0.95),");",sta[3]," (",quantile(star[,3],0.05),"-",quantile(star[,3],0.95),");",sta[4]," (",quantile(star[,4],0.05),"-",quantile(star[,4],0.95),")\n",
-"Total cophenetic index;",tco[1]," (",quantile(tcor[,1],0.05),"-",quantile(tcor[,1],0.95),");",tco[2]," (",quantile(tcor[,2],0.05),"-",quantile(tcor[,2],0.95),");",tco[3]," (",quantile(tcor[,3],0.05),"-",quantile(tcor[,3],0.95),");",tco[4]," (",quantile(tcor[,4],0.05),"-",quantile(tcor[,4],0.95),")\n",
+"Log total cophenetic index;",tco[1]," (",quantile(tcor[,1],0.05),"-",quantile(tcor[,1],0.95),");",tco[2]," (",quantile(tcor[,2],0.05),"-",quantile(tcor[,2],0.95),");",tco[3]," (",quantile(tcor[,3],0.05),"-",quantile(tcor[,3],0.95),");",tco[4]," (",quantile(tcor[,4],0.05),"-",quantile(tcor[,4],0.95),")\n",
 sep="")
 
