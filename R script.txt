@@ -157,30 +157,81 @@ sac=c(sackinI(treeG),sackinI(treeN),sackinI(treeO),sackinI(treeD)) #Sackin index
 sta=c(stairs1(treeG),stairs1(treeN),stairs1(treeO),stairs1(treeD)) #Staircase-ness
 tco=c(totCophI(treeG),totCophI(treeN),totCophI(treeO),totCophI(treeD)) #Total cophenetic index
 
-boots=200
+boots=500
 appr=NULL
-for (i in 1:boots) {appr = rbind( appr, c( areaPerPairI(rtree(Ntip(treeG))), areaPerPairI(rtree(Ntip(treeN))), areaPerPairI(rtree(Ntip(treeO))), areaPerPairI(rtree(Ntip(treeD))) ) )}
 aldr=NULL
-for (i in 1:boots) {aldr = rbind( aldr, c( avgLeafDepI(rtree(Ntip(treeG))), avgLeafDepI(rtree(Ntip(treeN))), avgLeafDepI(rtree(Ntip(treeO))), avgLeafDepI(rtree(Ntip(treeD))) ) )}
 cher=NULL
-for (i in 1:boots) {cher = rbind( cher, c( cherryI(rtree(Ntip(treeG))), cherryI(rtree(Ntip(treeN))), cherryI(rtree(Ntip(treeO))), cherryI(rtree(Ntip(treeD))) ) )}
 colr=NULL
-for (i in 1:boots) {colr = rbind( colr, c( collessI(rtree(Ntip(treeG))), collessI(rtree(Ntip(treeN))), collessI(rtree(Ntip(treeO))), collessI(rtree(Ntip(treeD))) ) )}
 mdwr=NULL
-for (i in 1:boots) {mdwr = rbind( mdwr, c( maxDelW(rtree(Ntip(treeG))), maxDelW(rtree(Ntip(treeN))), maxDelW(rtree(Ntip(treeO))), maxDelW(rtree(Ntip(treeD))) ) )}
 rogr=NULL
-for (i in 1:boots) {rogr = rbind( rogr, c( rogersI(rtree(Ntip(treeG))), rogersI(rtree(Ntip(treeN))), rogersI(rtree(Ntip(treeO))), rogersI(rtree(Ntip(treeD))) ) )}
 rqur=NULL
-for (i in 1:boots) {rqur = rbind( rqur, c( rQuartetI(rtree(Ntip(treeG))), rQuartetI(rtree(Ntip(treeN))), rQuartetI(rtree(Ntip(treeO))), rQuartetI(rtree(Ntip(treeD))) ) )}
 sacr=NULL
-for (i in 1:boots) {sacr = rbind( sacr, c( sackinI(rtree(Ntip(treeG))), sackinI(rtree(Ntip(treeN))), sackinI(rtree(Ntip(treeO))), sackinI(rtree(Ntip(treeD))) ) )}
 star=NULL
-for (i in 1:boots) {star = rbind( star, c( stairs1(rtree(Ntip(treeG))), stairs1(rtree(Ntip(treeN))), stairs1(rtree(Ntip(treeO))), stairs1(rtree(Ntip(treeD))) ) )}
 tcor=NULL
+for (i in 1:boots) {appr = rbind( appr, c( areaPerPairI(rtree(Ntip(treeG))), areaPerPairI(rtree(Ntip(treeN))), areaPerPairI(rtree(Ntip(treeO))), areaPerPairI(rtree(Ntip(treeD))) ) )}
+for (i in 1:boots) {aldr = rbind( aldr, c( avgLeafDepI(rtree(Ntip(treeG))), avgLeafDepI(rtree(Ntip(treeN))), avgLeafDepI(rtree(Ntip(treeO))), avgLeafDepI(rtree(Ntip(treeD))) ) )}
+for (i in 1:boots) {cher = rbind( cher, c( cherryI(rtree(Ntip(treeG))), cherryI(rtree(Ntip(treeN))), cherryI(rtree(Ntip(treeO))), cherryI(rtree(Ntip(treeD))) ) )}
+for (i in 1:boots) {colr = rbind( colr, c( collessI(rtree(Ntip(treeG))), collessI(rtree(Ntip(treeN))), collessI(rtree(Ntip(treeO))), collessI(rtree(Ntip(treeD))) ) )}
+for (i in 1:boots) {mdwr = rbind( mdwr, c( maxDelW(rtree(Ntip(treeG))), maxDelW(rtree(Ntip(treeN))), maxDelW(rtree(Ntip(treeO))), maxDelW(rtree(Ntip(treeD))) ) )}
+for (i in 1:boots) {rogr = rbind( rogr, c( rogersI(rtree(Ntip(treeG))), rogersI(rtree(Ntip(treeN))), rogersI(rtree(Ntip(treeO))), rogersI(rtree(Ntip(treeD))) ) )}
+for (i in 1:boots) {rqur = rbind( rqur, c( rQuartetI(rtree(Ntip(treeG))), rQuartetI(rtree(Ntip(treeN))), rQuartetI(rtree(Ntip(treeO))), rQuartetI(rtree(Ntip(treeD))) ) )}
+for (i in 1:boots) {sacr = rbind( sacr, c( sackinI(rtree(Ntip(treeG))), sackinI(rtree(Ntip(treeN))), sackinI(rtree(Ntip(treeO))), sackinI(rtree(Ntip(treeD))) ) )}
+for (i in 1:boots) {star = rbind( star, c( stairs1(rtree(Ntip(treeG))), stairs1(rtree(Ntip(treeN))), stairs1(rtree(Ntip(treeO))), stairs1(rtree(Ntip(treeD))) ) )}
 for (i in 1:boots) {tcor = rbind( tcor, c( totCophI(rtree(Ntip(treeG))), totCophI(rtree(Ntip(treeN))), totCophI(rtree(Ntip(treeO))), totCophI(rtree(Ntip(treeD))) ) )}
 
 rqu=log(rqu+1)
 rqur=log(rqur+1)
+
+abs(app[1]-mean(appr[,1]))/(sd(appr[,1])/sqrt(length(appr[,1])))
+abs(app[2]-mean(appr[,2]))/(sd(appr[,2])/sqrt(length(appr[,2])))
+abs(app[3]-mean(appr[,3]))/(sd(appr[,3])/sqrt(length(appr[,3])))
+abs(app[4]-mean(appr[,4]))/(sd(appr[,4])/sqrt(length(appr[,4])))
+
+abs(ald[1]-mean(aldr[,1]))/(sd(aldr[,1])/sqrt(length(aldr[,1])))
+abs(ald[2]-mean(aldr[,2]))/(sd(aldr[,2])/sqrt(length(aldr[,2])))
+abs(ald[3]-mean(aldr[,3]))/(sd(aldr[,3])/sqrt(length(aldr[,3])))
+abs(ald[4]-mean(aldr[,4]))/(sd(aldr[,4])/sqrt(length(aldr[,4])))
+
+abs(che[1]-mean(cher[,1]))/(sd(cher[,1])/sqrt(length(cher[,1])))
+abs(che[2]-mean(cher[,2]))/(sd(cher[,2])/sqrt(length(cher[,2])))
+abs(che[3]-mean(cher[,3]))/(sd(cher[,3])/sqrt(length(cher[,3])))
+abs(che[4]-mean(cher[,4]))/(sd(cher[,4])/sqrt(length(cher[,4])))
+
+abs(col[1]-mean(colr[,1]))/(sd(colr[,1])/sqrt(length(colr[,1])))
+abs(col[2]-mean(colr[,2]))/(sd(colr[,2])/sqrt(length(colr[,2])))
+abs(col[3]-mean(colr[,3]))/(sd(colr[,3])/sqrt(length(colr[,3])))
+abs(col[4]-mean(colr[,4]))/(sd(colr[,4])/sqrt(length(colr[,4])))
+
+abs(mdw[1]-mean(mdwr[,1]))/(sd(mdwr[,1])/sqrt(length(mdwr[,1])))
+abs(mdw[2]-mean(mdwr[,2]))/(sd(mdwr[,2])/sqrt(length(mdwr[,2])))
+abs(mdw[3]-mean(mdwr[,3]))/(sd(mdwr[,3])/sqrt(length(mdwr[,3])))
+abs(mdw[4]-mean(mdwr[,4]))/(sd(mdwr[,4])/sqrt(length(mdwr[,4])))
+
+abs(rog[1]-mean(rogr[,1]))/(sd(rogr[,1])/sqrt(length(rogr[,1])))
+abs(rog[2]-mean(rogr[,2]))/(sd(rogr[,2])/sqrt(length(rogr[,2])))
+abs(rog[3]-mean(rogr[,3]))/(sd(rogr[,3])/sqrt(length(rogr[,3])))
+abs(rog[4]-mean(rogr[,4]))/(sd(rogr[,4])/sqrt(length(rogr[,4])))
+
+abs(rqu[1]-mean(rqur[,1]))/(sd(rqur[,1])/sqrt(length(rqur[,1])))
+abs(rqu[2]-mean(rqur[,2]))/(sd(rqur[,2])/sqrt(length(rqur[,2])))
+abs(rqu[3]-mean(rqur[,3]))/(sd(rqur[,3])/sqrt(length(rqur[,3])))
+abs(rqu[4]-mean(rqur[,4]))/(sd(rqur[,4])/sqrt(length(rqur[,4])))
+
+abs(sac[1]-mean(sacr[,1]))/(sd(sacr[,1])/sqrt(length(sacr[,1])))
+abs(sac[2]-mean(sacr[,2]))/(sd(sacr[,2])/sqrt(length(sacr[,2])))
+abs(sac[3]-mean(sacr[,3]))/(sd(sacr[,3])/sqrt(length(sacr[,3])))
+abs(sac[4]-mean(sacr[,4]))/(sd(sacr[,4])/sqrt(length(sacr[,4])))
+
+abs(sta[1]-mean(star[,1]))/(sd(star[,1])/sqrt(length(star[,1])))
+abs(sta[2]-mean(star[,2]))/(sd(star[,2])/sqrt(length(star[,2])))
+abs(sta[3]-mean(star[,3]))/(sd(star[,3])/sqrt(length(star[,3])))
+abs(sta[4]-mean(star[,4]))/(sd(star[,4])/sqrt(length(star[,4])))
+
+abs(tco[1]-mean(tcor[,1]))/(sd(tcor[,1])/sqrt(length(tcor[,1])))
+abs(tco[2]-mean(tcor[,2]))/(sd(tcor[,2])/sqrt(length(tcor[,2])))
+abs(tco[3]-mean(tcor[,3]))/(sd(tcor[,3])/sqrt(length(tcor[,3])))
+abs(tco[4]-mean(tcor[,4]))/(sd(tcor[,4])/sqrt(length(tcor[,4])))
+
 
 app=round(app,1)
 ald=round(ald,1)
