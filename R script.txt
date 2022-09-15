@@ -30,18 +30,18 @@ for (i in 1:25)
 	nam=paste("run",i,"_nextstrain_ncov_open_global_all-time_tree.rerooted.csv",sep="")
 	clusts[[i]]=read.delim(nam,sep=",",header=T)
 }
-best_ari1=0
-best_ind1=0
+
+best_ari_all_pango=0
+best_ind_all_pango=0
 for (i in 1:25)
 {
 	datam=merge(data,clusts[[i]],by.y="leafname",by.x="strain")
 	maxx=max(datam$clustername)
 	for (j in 1:length(datam$clustername)) {if (datam$clustername[j]==0) {maxx=maxx+1; datam$clustername[j]=maxx}}
 	ari=arandi(datam$clustername,datam$pango_lineage,adjust=T)
-	cat("i=",i," ari=",ari," best=",best_ari1,"\r\n")
-	if (!is.nan(ari)) {if (ari>best_ari1) {best_ari1=ari; best_ind1=i}}
-}
-	
+	cat("i=",i," ari=",ari," best=",best_ari_all_pango,"\r\n")
+	if (!is.nan(ari)) {if (ari>best_ari_all_pango) {best_ari_all_pango=ari; best_ind_all_pango=i}}
+}	
 remov=names(which(table(data$pango_lineage)<2))
 pang_cl=NULL
 for (j in 1:length(data$pango_lineage)) 
@@ -50,23 +50,54 @@ for (j in 1:length(data$pango_lineage))
 	else {pang_cl=c(pang_cl,data$pango_lineage[j])}
 }
 data=cbind(data,pang_cl)
-
-best_ari=0
-best_ind=0
+best_ari_rem_pango=0
+best_ind_rem_pango=0
 for (i in 1:25)
 {
 	datam=merge(data,clusts[[i]],by.y="leafname",by.x="strain")
 	remov=unique(c(which(datam$clustername==0),which(datam$pang_cl=="remov")))
 	ari=arandi(datam$clustername[-remov],datam$pang_cl[-remov],adjust=T)
-	cat("i=",i," ari=",ari," best=",best_ari,"\r\n")
-	if (!is.nan(ari)) {if (ari>best_ari) {best_ari=ari; best_ind=i}}
+	cat("i=",i," ari=",ari," best=",best_ari_rem_pango,"\r\n")
+	if (!is.nan(ari)) {if (ari>best_ari_rem_pango) {best_ari_rem_pango=ari; best_ind_rem_pango=i}}
 }
+
+best_ari_all_clade=0
+best_ind_all_clade=0
+for (i in 1:25)
+{
+	datam=merge(data,clusts[[i]],by.y="leafname",by.x="strain")
+	maxx=max(datam$clustername)
+	for (j in 1:length(datam$clustername)) {if (datam$clustername[j]==0) {maxx=maxx+1; datam$clustername[j]=maxx}}
+	ari=arandi(datam$clustername,datam$clade_membership,adjust=T)
+	cat("i=",i," ari=",ari," best=",best_ari_all_clade,"\r\n")
+	if (!is.nan(ari)) {if (ari>best_ari_all_clade) {best_ari_all_clade=ari; best_ind_all_clade=i}}
+}	
+remov=names(which(table(data$clade_membership)<2))
+clad_cl=NULL
+for (j in 1:length(data$clade_membership)) 
+{
+	if ( data$clade_membership[j] %in% remov ) {clad_cl=c(clad_cl,"remov")}
+	else {clad_cl=c(clad_cl,data$clade_membership[j])}
+}
+data=cbind(data,clad_cl)
+best_ari_rem_clade=0
+best_ind_rem_clade=0
+for (i in 1:25)
+{
+	datam=merge(data,clusts[[i]],by.y="leafname",by.x="strain")
+	remov=unique(c(which(datam$clustername==0),which(datam$clad_cl=="remov")))
+	ari=arandi(datam$clustername[-remov],datam$pang_cl[-remov],adjust=T)
+	cat("i=",i," ari=",ari," best=",best_ari_rem_clade,"\r\n")
+	if (!is.nan(ari)) {if (ari>best_ari_rem_clade) {best_ari_rem_clade=ari; best_ind_rem_clade=i}}
+}
+
 
 treeGt=read.tree("nextstrain_ncov_open_global_all-time_tree.nwk")
 palett=rainbow(2697); #rainbow; topo.colors; heat.colors; cm.colors; terrain.colors; colors()
 palett=sample(palett)
-par(mfcol=c(1,3))
+par(mfcol=c(2,2))
 par(mar=c(0,0,3,0))
+par(cex=1)
 typ="f"
 databest1=merge(data,clusts[[4]],by.y="leafname",by.x="strain")
 maxx=max(databest1$clustername)
@@ -78,7 +109,7 @@ clst=as.numeric(as.factor(tips$clustername))
 colst=palett[clst]
 colors2[which(treeGt$edge[,2] %in% 1:Ntip(treeGt))]=colst
 plot(treeGt,show.tip.label=F,type=typ,edge.color=colors2,main="Phylopart (3rd perc. distance threshold)")
-databest1=merge(data,clusts[[best_ind1]],by.y="leafname",by.x="strain")
+databest1=merge(data,clusts[[best_ind_all_pango]],by.y="leafname",by.x="strain")
 maxx=max(databest1$clustername)
 for (j in 1:length(databest1$clustername)) {if (databest1$clustername[j]==0) {maxx=maxx+1; databest1$clustername[j]=maxx}}
 tips=as.data.frame(treeGt$tip.label);names(tips)="tips"
@@ -93,7 +124,19 @@ clst=as.numeric(as.factor(tips$pango_lineage))
 colst=palett[clst]
 colors2[which(treeGt$edge[,2] %in% 1:Ntip(treeGt))]=colst
 plot(treeGt,show.tip.label=F,type=typ,edge.color=colors2,main="Pango lineage",cex=1.5)
+colors2=rep("black", Nedge(treeGt))
+clst=as.numeric(as.factor(tips$clade_membership))
+colst=palett[clst]
+colors2[which(treeGt$edge[,2] %in% 1:Ntip(treeGt))]=colst
+plot(treeGt,show.tip.label=F,type=typ,edge.color=colors2,main="Nextstrain's clade",cex=1.5)
 
+tab=table(databest1$clustername,databest1$clade_membership)
+diffe=NULL
+for (i in 1:dim(tab)[2])
+{
+	diffe=c(diffe,length(which(table(databest1$clustername,databest1$clade_membership)[,i]==0))/dim(tab)[1])	
+}
+as.data.frame(cbind(colnames(tab),diffe))
 
 treeG=read.tree("nextstrain_ncov_open_global_all-time_tree.rerooted.nwk")
 treeN=read.tree("nextstrain_ncov_open_north-america_all-time_tree.rerooted.nwk")
